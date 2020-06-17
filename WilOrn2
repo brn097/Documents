@@ -1,0 +1,2204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="undefined" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="CourtenProofingTRANSLATED.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Ornithology of Francis Willughby</title>
+                <respStmt>
+                    <name>Brent Nelson</name>
+                    <resp>editor</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <ab>* This is a beta version *</ab>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Ray, John</author> and <author rend="6">Francis Willughby</author>
+                    <title type="book">The ornithology of Francis Willughby...: in three books:
+                        wherein all the birds hitherto known ... are accurately described: the
+                        descriptions illustrated by most elegant figures, nearly resembling the live
+                        birds, engraven in LXXVIII copper plates: translated into English, and
+                        enlarged with many additions throughout the whole work. To which are added,
+                        three considerable discourses, I. Of the art of fowling: with a description
+                        of several nets in two large copper plates. II. Of the ordering of singing
+                        birds. III. Of falconry. By John Ray</title>
+                    <pubPlace>London</pubPlace>
+                    <publisher>Printed by A.C. for John Martyn</publisher>
+                    <date>1678</date>.
+                    <edition/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://raw.githubusercontent.com/brn097/Documents/master/WilOrn2?person_annotation_20200617154054502",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-06-17T21:40:54.502Z",
+	"dcterms:issued": "2020-06-17T21:56:48.675Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/brn097",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": null,
+		"foaf:nick": "brn097"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/brn097/Documents/master/WilOrn2?person_annotation_20200617154054502#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/brn097/Documents/master/WilOrn2",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/brn097/Documents/master/WilOrn2?person_annotation_20200617154054502#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/front/div/p[2]/name/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	}
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://raw.githubusercontent.com/brn097/Documents/master/WilOrn2?place_annotation_20200617154055567",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-06-17T21:40:55.567Z",
+	"dcterms:issued": "2020-06-17T21:56:48.678Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/brn097",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": null,
+		"foaf:nick": "brn097"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/brn097/Documents/master/WilOrn2?place_annotation_20200617154055567#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/brn097/Documents/master/WilOrn2",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/brn097/Documents/master/WilOrn2?place_annotation_20200617154055567#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/front/div/p[7]/hi[3]/name/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	}
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://raw.githubusercontent.com/brn097/Documents/master/WilOrn2?place_annotation_20200617154055882",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-06-17T21:40:55.882Z",
+	"dcterms:issued": "2020-06-17T21:56:48.679Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/brn097",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": null,
+		"foaf:nick": "brn097"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/brn097/Documents/master/WilOrn2?place_annotation_20200617154055882#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/brn097/Documents/master/WilOrn2",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/brn097/Documents/master/WilOrn2?place_annotation_20200617154055882#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/front/div/p[7]/hi[10]/name/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	}
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://raw.githubusercontent.com/brn097/Documents/master/WilOrn2?person_annotation_20200617154057429",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-06-17T21:40:57.429Z",
+	"dcterms:issued": "2020-06-17T21:56:48.679Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/brn097",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": null,
+		"foaf:nick": "brn097"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/brn097/Documents/master/WilOrn2?person_annotation_20200617154057429#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/brn097/Documents/master/WilOrn2",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/brn097/Documents/master/WilOrn2?person_annotation_20200617154057429#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/div/div[3]/div/p/hi[5]/name/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "124",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	}
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://raw.githubusercontent.com/brn097/Documents/master/WilOrn2?person_annotation_20200617154057461",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-06-17T21:40:57.461Z",
+	"dcterms:issued": "2020-06-17T21:56:48.680Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/brn097",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": null,
+		"foaf:nick": "brn097"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/brn097/Documents/master/WilOrn2?person_annotation_20200617154057461#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/brn097/Documents/master/WilOrn2",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/brn097/Documents/master/WilOrn2?person_annotation_20200617154057461#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/div/div[3]/div[2]/head/hi/name/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "122",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	}
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://raw.githubusercontent.com/brn097/Documents/master/WilOrn2?person_annotation_20200617154057548",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-06-17T21:40:57.548Z",
+	"dcterms:issued": "2020-06-17T21:56:48.680Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/brn097",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": null,
+		"foaf:nick": "brn097"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/brn097/Documents/master/WilOrn2?person_annotation_20200617154057548#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/brn097/Documents/master/WilOrn2",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/brn097/Documents/master/WilOrn2?person_annotation_20200617154057548#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/div/div[3]/div[2]/p/name/choice/orig/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "124",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	}
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://raw.githubusercontent.com/brn097/Documents/master/WilOrn2?person_annotation_20200617154057587",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-06-17T21:40:57.587Z",
+	"dcterms:issued": "2020-06-17T21:56:48.681Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/brn097",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": null,
+		"foaf:nick": "brn097"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/brn097/Documents/master/WilOrn2?person_annotation_20200617154057587#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/brn097/Documents/master/WilOrn2",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/brn097/Documents/master/WilOrn2?person_annotation_20200617154057587#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/div/div[3]/div[2]/p/name/choice/reg/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "124",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	}
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://raw.githubusercontent.com/brn097/Documents/master/WilOrn2?place_annotation_20200617154057629",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-06-17T21:40:57.629Z",
+	"dcterms:issued": "2020-06-17T21:56:48.681Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/brn097",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": null,
+		"foaf:nick": "brn097"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/brn097/Documents/master/WilOrn2?place_annotation_20200617154057629#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/brn097/Documents/master/WilOrn2",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/brn097/Documents/master/WilOrn2?place_annotation_20200617154057629#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/div/div[3]/div[2]/p/hi[2]/name/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "96",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	}
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://raw.githubusercontent.com/brn097/Documents/master/WilOrn2?person_annotation_20200617154057734",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-06-17T21:40:57.734Z",
+	"dcterms:issued": "2020-06-17T21:56:48.682Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/brn097",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": null,
+		"foaf:nick": "brn097"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/brn097/Documents/master/WilOrn2?person_annotation_20200617154057734#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/brn097/Documents/master/WilOrn2",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/brn097/Documents/master/WilOrn2?person_annotation_20200617154057734#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/div/div[3]/div[2]/p/hi[10]/name/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "122",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	}
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://raw.githubusercontent.com/brn097/Documents/master/WilOrn2?person_annotation_20200617154058980",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-06-17T21:40:58.980Z",
+	"dcterms:issued": "2020-06-17T21:56:48.682Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/brn097",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": null,
+		"foaf:nick": "brn097"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/brn097/Documents/master/WilOrn2?person_annotation_20200617154058980#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/brn097/Documents/master/WilOrn2",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/brn097/Documents/master/WilOrn2?person_annotation_20200617154058980#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/div/div/div/div/p[2]/hi[6]/name/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "122",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	}
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://raw.githubusercontent.com/brn097/Documents/master/WilOrn2?person_annotation_20200617154059347",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-06-17T21:40:59.347Z",
+	"dcterms:issued": "2020-06-17T21:56:48.683Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/brn097",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": null,
+		"foaf:nick": "brn097"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/brn097/Documents/master/WilOrn2?person_annotation_20200617154059347#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/brn097/Documents/master/WilOrn2",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/brn097/Documents/master/WilOrn2?person_annotation_20200617154059347#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/div/div[2]/div/head/hi[3]/name[2]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "122",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	}
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://raw.githubusercontent.com/brn097/Documents/master/WilOrn2?person_annotation_20200617154100054",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-06-17T21:41:00.054Z",
+	"dcterms:issued": "2020-06-17T21:56:48.683Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/brn097",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": null,
+		"foaf:nick": "brn097"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/brn097/Documents/master/WilOrn2?person_annotation_20200617154100054#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/brn097/Documents/master/WilOrn2",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/brn097/Documents/master/WilOrn2?person_annotation_20200617154100054#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/div/div[2]/div/p[5]/hi/name/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "122",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	}
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://raw.githubusercontent.com/brn097/Documents/master/WilOrn2?person_annotation_20200617154100231",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-06-17T21:41:00.231Z",
+	"dcterms:issued": "2020-06-17T21:56:48.684Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/brn097",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": null,
+		"foaf:nick": "brn097"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/brn097/Documents/master/WilOrn2?person_annotation_20200617154100231#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/brn097/Documents/master/WilOrn2",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/brn097/Documents/master/WilOrn2?person_annotation_20200617154100231#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/div/div[2]/div/p[6]/hi[3]/name/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "122",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	}
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://raw.githubusercontent.com/brn097/Documents/master/WilOrn2?person_annotation_20200617154103630",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-06-17T21:41:03.630Z",
+	"dcterms:issued": "2020-06-17T21:56:48.684Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/brn097",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": null,
+		"foaf:nick": "brn097"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/brn097/Documents/master/WilOrn2?person_annotation_20200617154103630#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/brn097/Documents/master/WilOrn2",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/brn097/Documents/master/WilOrn2?person_annotation_20200617154103630#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/div[2]/div[3]/div/p[4]/hi[2]/name/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "122",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	}
+}
+]]></rdf:Description></rdf:RDF></xenoData></teiHeader>
+
+
+    <text>
+
+        <front>
+            <div type="preface">
+                <head>The Preface</head>
+                <p><gap reason="excerpt" resp="editorial"><desc rend="center">. . .</desc></gap></p>
+                <p>Now because elegant and accurate Figures do much illustrate and facilitate the
+                    understanding of Descriptions, in order to the Engraving such Figures for this
+                    Work, Mr. <name type="person" ref="6" rend="italic"><persName key="Francis Willughby">Willughby</persName></name> made a Collection of as many Pictures
+                    drawn in colours by the life as he could procure. First, He purchased of one <hi rend="italic"><name type="person" ref="4126">Leonard Baltner</name>,</hi> a Fisherman of <hi rend="italic"><name type="place" ref="221">Strasburgh</name>,</hi> a Volume containing the Pictures of all the Water-fowl
+                    frequenting the <hi rend="italic"><name type="place" ref="1031">Rhene</name></hi> near that City, as also all the
+                    Fish and Water-Insects found there, drawn with great curiosity and exactness by
+                    an excellent hand. The which Fowl, Fishes, and Insects the said <hi rend="italic"><name type="person" ref="4126">Baltner</name></hi> had himself taken, described, and at his own
+                    proper costs and charges caused to be drawn. Which curiosity is much to be
+                    admired and commended in a Person of his Condition and Education. For my part, I
+                    must needs acknowledge that I have received much light and information from the
+                    Work of this poor man, and have been thereby inabled to clear many difficulties,
+                    and rectifie some mistakes in <hi rend="italic"><name type="person" ref="1906">Gesner</name>.</hi> Secondly, At <hi rend="italic"><name type="person" ref="192">Nurenberg</name></hi> in <hi rend="italic"><name type="place" ref="63">Germany</name></hi> he bought a
+                    large Volume of Pictures of Birds drawn in colours. Third­ly, He caused
+                    divers Species, as well seen in <hi rend="italic"><name type="place" ref="22">England</name></hi> as beyond the
+                    Seas, to be drawn by good Artists. Besides what he left, the deservedly
+                    famous Sir <hi rend="italic"><name type="person" ref="51">Thomas Brown</name>,</hi> Professor of Physick in
+                    the City of <hi rend="italic"><name type="place" ref="286">Norwich</name>,</hi> frankly communicated the Draughts of
+                    several rare Birds, with some brief notes and descriptions of them. Out of
+                    these, and the Printed Figures of <name type="person" ref="122" rend="italic">Aldrovandus,</name> and <name type="person" rend="italic" ref="4127">Pet. Olina</name>, an Italian Author, we culled out those we
+                    thought most natural, and resembling the life, for the Gravers to imitate,
+                    adding also all but one or two of <hi rend="italic"><name type="person" ref="975">Marggravius</name>'s,</hi> and some
+                    out of <hi rend="italic"><name type="person" ref="128">Clusius</name></hi> his Exotics, <hi rend="italic"><name type="person" ref="153">Piso</name></hi>
+                    his Natural History of the <hi rend="italic"><name type="person" ref="101">West Indies</name>,</hi> and <hi rend="italic"><name type="person" ref="151">Bontius</name></hi> his of the <hi rend="italic">East.</hi>
+                </p>
+                <p>The Gravers we employed, though they were very good Workmen, yet in many Sculps
+                    they have not satisfied me. For I being at a great di­stance from <hi rend="italic"><name type="place" ref="52">London</name>,</hi> and all advices and directions necessarily
+                    passing by Letter, sometimes through haste mistook in my directions, sometimes
+                    through weariness and impatience of long Writing sent not so clear and full
+                    instructions as was requisite; and they as often neglected their instructions,
+                    or mistook my meaning. Notwithstanding the Figures, such as they are, take them
+                    all together, they are the best and truest, that is, most like the live Birds,
+                    of any hitherto engraven in Brass.</p>
+                <p>It is requisite now that we inform the Reader what compendious ways we sought to
+                    avoid unnecessary expences in graving of Figures. 1. Of the same Species of Bird
+                    when more Figures than one occurred either in divers Authors, or our own Papers,
+                    or both, we caused only one, which we judged to be the best to be engraven. 2.
+                    We have for the most part contented our selves with the figure of one Sex only,
+                    and that the Male. 3. We have omitted all such dubious <hi rend="italic">Icons</hi> as we knew not whether they were of true birds or not, or could
+                    not certainly determine of what <hi rend="italic">Species</hi> they were. 4. Of
+                    such as differ only in bigness, or if otherwise in such accidents as cannot be
+                    expressed in Sculpture, we have given only the Figure of the greater. Of this
+                    kind are the greater and lesser <hi rend="italic">Curlew,</hi> the common <hi rend="italic">Snipe,</hi> and <hi rend="italic">Jack-Snipe,</hi> or <hi rend="italic">Judcock.</hi> And yet some Birds we have caused to be graven
+                    twice when the first time the Gravers mist their aim, and shot too wide of their
+                    mark: Such are the <hi rend="italic">red-leg'd Partridge,</hi> The common <hi rend="italic">Swallow,</hi> the <hi rend="italic">Swift,</hi> the common <hi rend="italic">Blackbird,</hi> the <hi rend="italic">House-Dove,</hi> the <hi rend="italic">Royston Crow,</hi> the <hi rend="italic">Witwall,</hi> and the
+                        <hi rend="italic">Dottrel.</hi> I might add hereto the <name type="place" ref="9" rend="italic">Canada Goose</name> in the seventieth Plate, for I now persuade my self that
+                    the Bird graven in Plate 71. is the same with it. The lain <hi rend="italic">Sheldrake</hi> was through mistake twice figured in Plates 70. and 71. so
+                    was the <hi rend="italic">Auk</hi> or <hi rend="italic">Rozor-bill</hi> in
+                    Plates 64. and 65. The figures of the <hi rend="italic">Rock Ouzel,
+                        Bittern,</hi> and <hi rend="italic">Stone-Curlew</hi> first graven, though
+                    they were passable enough, yet having afterwards gotten very exact Figures of
+                    those Birds, we caused them also to be Engraven. </p>
+                <p>The whole Work we have divided into three Books. In the first we treat of <hi rend="italic">Birds</hi> in general; in the second of <hi rend="italic">Land-fowl;</hi> in the third of <hi rend="italic">Water-Fowl.</hi> The
+                    second Book we have divided into two parts: The first whereof contains Birds of
+                        <hi rend="italic">crooked</hi> Beak and Talons; The second, such whose Bills
+                    and Claws are more <hi rend="italic">streight.</hi> The third Book is
+                    tripartite: The first part takes in all Birds that <hi rend="italic">wade</hi>
+                    in the waters, or frequent watery places, but swim not; The second, such as are
+                    of a <hi rend="italic">middle</hi> nature between swimmers and waders, or rather
+                    that partake of both kinds, some whereof are cloven-footed, and yet swim; others
+                    whole-footed, but yet very long-leg'd like the waders: The third is of
+                    whole-footed, or fin-toed Birds, that <hi rend="italic">swim</hi> in the
+                    water.</p>
+                <p>As for fabulous Birds, such as are confessedly so, <hi rend="italic">viz.
+                        Phenixes, Griffins, Harpyes, Ruk,</hi> and the like, I have omitted them, as
+                    being no part of our sub­ject, and all that can be said of them having
+                    been more than once written already. I have also omitted some that I only
+                    suspected for fictitious, as the <hi rend="italic">Scythian Bird,</hi> the <hi rend="italic">Aquila Heteropus,</hi> &amp;c. Yet because I would not rely
+                    too much upon my own judgment, I have put in the <hi rend="italic">Appendix</hi>
+                    the descriptions of some of that nature out of <hi rend="italic"><name type="person" ref="152">Hernandez</name>,</hi>
+                    which I refer to the Readers censure.</p>
+                <p>It remains that I make a grateful mention of such of our learned and
+                    wor­thy Friends, as have given us any considerable information or
+                    assistance; as well to do them right, as to acquaint the Reader whom we mean by
+                    some names recorded in this Work. Those were Sir <hi rend="italic"><name type="person" ref="51">Thomas
+                        Brown</name></hi> of <name type="place" ref="286" rend="italic">Norwich</name> before remembred: 
+                    <name type="person" ref="4125" rend="italic">Francis Jessop</name> Esq of <name type="place" rend="italic" ref="2619">Broom-hall</name>
+                    in <hi rend="italic"><name type="person" ref="875">Sheffield</name></hi> Parish, <hi rend="italic"><name type="person" ref="14"><placeName key="Yorkshire">Yorkshire</placeName></name>,</hi>
+                    who sent us the Descriptions and Cases of many rare Birds, and discovered and
+                    gave us notice of many Species thereabout, which we knew not before to be native
+                    of <hi rend="italic"><name type="place" ref="22">England</name>:</hi> Sir <hi rend="italic"><name type="person" ref="1101">Philip Skippon</name></hi> of
+                    <name type="place" ref="2620" rend="italic">Wrentham</name> near 
+                    <hi rend="italic"><name type="place">Bliborough</name></hi> in
+                    the County of <name type="person" ref="386" rend="italic">Suffolk</name>, 
+                    Knight, who communicated the
+                    Pictures of several Birds we wanted: And Mr. <hi rend="italic">
+                        <name type="person" ref="4128">Ralph Johnson</name></hi> of <hi rend="italic"><name type="person" ref="2621">Brignal</name></hi> near 
+                    <hi rend="italic"><name type="person" ref="2622">Greta Bridge</name></hi> in <hi rend="italic"><name type="person" ref="14"><placeName key="Yorkshire">Yorkshire</placeName></name>,</hi> a Person of singular skill
+                    in <hi rend="italic">Zoology,</hi> especially the <hi rend="italic">History</hi>
+                    of <hi rend="italic">Birds,</hi> who be­sides the Descriptions and
+                    Pictures of divers uncommon, and some unde­scribed both Land and
+                    Water-fowl, communicated to us his Method of Birds, whereby we were in some
+                    particulars informed, in many others confirmed, his judgment concurring with
+                    ours in the divisions and Characteristic notes of the <hi rend="italic">Genera.</hi>
+                </p>
+                <p><gap reason="excerpt" resp="editorial"><desc rend="center">. . .</desc></gap></p>
+                <pb n="28"/>
+                <p>Among the whole-footed Water-fowl we omitted the <hi rend="italic">Recurvirostra</hi> or <hi rend="italic">Avosetta Italorum,</hi> which in
+                    Winter-time often frequents our coasts, the <hi rend="italic">Shear-water</hi>
+                    of <name type="person" ref="51">Sir <hi rend="italic"><name type="person" ref="51">Thomas Brown</name>,</hi></name> and the <hi rend="italic">Mergulus melanoleucos rostro acute brevi</hi> of the same.</p>
+            </div>
+        </front>
+
+        <body>
+
+            <div type="book" n="1">
+
+                <div type="part" n="2">
+                    <head>THE SECOND PART OF THE FIRST BOOK. <hi rend="italic">Of Birds with
+                            streighter or less hooked Bills.</hi>
+                    </head>
+                    
+                    <div type="section" n="1">
+                        <head>THE FIRST SECTION. OF GREATER BIRDS. </head>
+                        <p><gap reason="excerpt" resp="editorial"><desc rend="center">. . .</desc></gap></p>
+                        <pb n="140"/>
+                        <div type="chapter" n="5">
+                            <head>CHAP. V. <hi rend="italic">Of several sorts of Woodpeckers</hi>
+                            </head>
+                            
+                            <div type="subsection" n="10">
+                                <head>§. X. * <hi rend="italic">The <name type="place" ref="96">Brasilian</name></hi> Aracari 
+                                    <hi rend="italic">of</hi> <name type="person" ref="975">Marggrav</name>. 
+                                    <hi rend="italic">the other</hi> Xochitenacatl <hi rend="italic">of</hi>
+                                    Nieremberg. </head>
+                                <p><choice><orig>IT</orig><reg>It</reg></choice> is of the bigness of a <hi rend="italic">Woodpecker</hi> [I
+                                    suppose he means the common green one] hath a Bill four inches
+                                    long, an inch and half broad or deep, three inches and an half
+                                    thick where thickest, [I suppose he means so much by measure
+                                    round] a little bending downward like a <hi rend="italic">Turkish</hi> 
+                                    Scymitar, and sharp-pointed like a <hi rend="italic">Parrots;</hi> the upper Chap being a little
+                                    longer than the lower: Both upper and lower are for above half
+                                    way reckoning from the end, serrate or toothed. The upper part
+                                    of the Bill is greater than the lower. The Bill is hollow, very
+                                    light, [lighter than a Spunge:] The upper Chap white,
+                                    distinguished by a black line running along the middle or ridge
+                                    from head to point, the lower Chap wholly black. The whole Bill
+                                    is inserted into the Head triangle-wise, and where the insertion
+                                    is, compassed about with a triangu­lar white line. It
+                                    hath a Tongue four inches long, very light, and plainly
+                                    resembling a feather to see to: Or else is feathered and black,
+                                    (if the Tongue may be said to have a feather.) It hath a Head
+                                    not very big, broad, and compressed; great Eyes, <pb n="141"/>
+                                    with a black Pupil, yellow <hi rend="italic">Irides,</hi> and
+                                    the <note type="orig">* Reliqua ex<lb break="no"/>tremitates.</note> 
+                                    *rest of the outsides
+                                    of the Eyes black. The Neck is not longer than a <hi rend="italic">Parrots.</hi> The body from the rise of the
+                                    Neck to the Tail is about five inches long. The Tail is broad
+                                    like a tline <hi rend="italic">Woodpeckers,</hi> and six inches
+                                    long, or somewhat more. The Legs and Feet are of a dark green or
+                                    black, like to those of <hi rend="italic">Parrots,</hi> having
+                                    two fore-toes, whereof the one longer than the other, and two
+                                    back-toes likewise of unequal length. The Claws crooked, and
+                                    dusky or black. The length of the upper Legs is two inches, of
+                                    the lower one and an half. The whole Head and Neck as far as the
+                                    beginning of the Breast are covered with black feathers, which
+                                    where they end are terminated in a circle. The Breast, and all
+                                    the lower Belly elegantly cloathed with yellow feathers mingled
+                                    with pavonine. Cross the Breast from the one side to the other
+                                    is a broad line drawn, of a sanguine colour. The whole Back,
+                                    Wings, Tail, and upper Legs are covered with dark green
+                                    feathers, [or black with a gloss of green] like the colour usual
+                                    in our <hi rend="italic">Magpies.</hi> The end of the Back above
+                                    the beginning of the Tail is of a sanguine colour to more than
+                                    the Circumfe­rence of a Crown piece. The Wings end at the
+                                    rise of the Tail, and within side are of a dark ash-colour. The
+                                    Bill is black within. This Bird doth, as it were,
+                                    pro­nounce its own name, crying with a sharp voice, but
+                                    not very shril, <hi rend="italic">Aracari.</hi>
+                                </p>
+                                <p>This Bird is very like the <hi rend="italic">Toucan</hi> or <hi rend="italic"><name type="place" ref="96">Brasilian</name> Pie.</hi> The conformation of its
+                                    Feet argues it to belong to the Woodpecker-kind. We saw the Bill
+                                    of this Bird in the <hi rend="italic">Re­pository</hi> of
+                                    the <hi rend="italic"><name type="person" ref="11">Royal Society</name>, <name type="place" ref="52">London</name>,</hi> our selves
+                                    also have one of them: It is much less than the <hi rend="italic">Toucans</hi> Bill, not so compressed
+                                    side-ways, but rounder. The upper Chap wholly white, without any
+                                    line of black in the top, (wherein it differs from the <hi rend="italic">Ara­cari</hi>'s 
+                                    Bill described by <name type="person" rend="italic" ref="975">Marggrave</name>) the lower black.</p>
+                                <p><gap reason="excerpt" resp="editorial"><desc rend="center">. . .</desc></gap></p>
+                            </div>
+                        </div>
+
+                        <div type="chapter" n="8">
+                            <head>CHAP. VIII. <hi rend="italic">The greatest Land-birds, of a
+                                    peculiar kind by themselves, which by reason of the bulk of
+                                    their bodies, and smalness of their Wings cannot fly, but only
+                                    walk</hi> .</head>
+                            <p><gap reason="excerpt" resp="editorial"><desc rend="center">. . .</desc></gap></p>
+
+                            <pb n="153"/>
+                            <div type="subsection" n="4">
+                                <head>§. IV. <hi rend="italic">The</hi> Dodo, <hi rend="italic">called by <name type="person" ref="128">Clusius</name></hi> Gallus gallinaceus peregrinus, <hi rend="italic">by <name type="person" ref="150">Nieremberg</name></hi> Cygnus cucullatus, <hi rend="italic">by <name type="person" ref="151">Bontius</name></hi> Dronte. </head>
+                                <p><choice><orig>THis</orig><reg>This</reg></choice> 
+                                    Exotic Bird, found by the <hi rend="italic">Hollanders</hi>
+                                    in the Island called 
+                                    <note type="editorial">* That is the <name type="place">Swan <lb/>Island</name>.</note>
+                                    <name type="place" rend="italic">Cygnaea</name> or <name type="place" rend="italic">Cerne</name>
+                                    by the <hi rend="italic">Portugues, <name type="place" ref="1691">Mauritius</name></hi> Island by the
+                                        <hi rend="italic">Low Dutch,</hi> of thirty miles
+                                    com­pass, famous especially for black Ebony, did equal or
+                                    exceed a <hi rend="italic">Swan</hi> in bigness, but was of a
+                                    far different shape: For its Head was great, covered as it were
+                                    with a certain membrane resembling a hood: Beside, its Bill was
+                                    not flat and broad, but thick and long; of a yellowish colour
+                                    next the Head, the point being black: The upper Chap was hooked;
+                                    in the nether had a bluish spot in the middle between the yellow
+                                    and black part. They reported that it is covered with thin and
+                                    short feathers, and wants Wings, instead whereof it hath only
+                                    four or five long, black feathers; that the hinder part of the
+                                    body is yery fat and fleshy, wherein for the Tail were four or
+                                    five small curled feathers, twirled up together, of an
+                                    ash-colour. Its Legs are thick ra­ther than long, whose
+                                    upper part, as far as the knee, is covered with black feathers;
+                                    the lower part, together with the Feet, of a yellowish colour:
+                                    Its Feet divided into four toes, three (and those the longer)
+                                    standing forward, the fourth and shortest backward; all
+                                    furnished with black Claws. After I had composed and writ down
+                                    the History of this Bird with as much diligence and faithfulness
+                                    as I could, I hapned to see in the house of <hi rend="italic">
+                                        <name type="person" ref="4130">Peter Pawius</name></hi>, 
+                                    primary Professor of Physic in the
+                                    <name type="place">University of <hi rend="italic">Leyden</hi></name>, 
+                                    a Leg thereof cut
+                                    off at the knee, lately brought over out of 
+                                    <name type="place" ref="1691" rend="italic">Mauritius</name> 
+                                    his Island. It was not very long, from the
+                                    knee to the bending of the foot being but little more than four
+                                    inches; but of a great thickness, so that it was almost four
+                                    inches in compass, and covered with thick-set scales, on the
+                                    upper side broader, and of a yel­lowish colour, on the
+                                    under [or backside of the Leg] lesser and dusky. The upper side
+                                    of the Toes was also covered with broad scales, the under side
+                                    wholly callous. The Toes were short for so thick a Leg: For the
+                                    length of the greatest or middlemost Toe to the nail did not
+                                    much exceed two inches, that of the other Toe next to it scarce
+                                    came up to two inches: The back-toe fell something short of an
+                                    inch and half: But the Claws of all were thick, hard, black,
+                                    less than an inch long; but that of the back-toe longer than the
+                                    rest, exceeding an inch. The Mariners in their dialect gave this
+                                    bird the name of <hi rend="italic">Walghvogel,</hi> that is, a
+                                    nauseous, or yellowish bird: Partly because after long boyling
+                                    its fleshbecame not tender, but continued hard, and of a
+                                    difficult concoction; excepting the Breast and Gizzard, which
+                                    they found to be of no bad relish; partly because they could
+                                    easily get many <hi rend="italic">Turtle-Doves,</hi> which were
+                                    much more delicate and pleasant to the Palate. Wherefore it was
+                                    no wonder that in comparison of those they despised this, and
+                                    said they could well be content to be without it. Moreover they
+                                    said, that they found certain stones in its Gizzard: <hi rend="italic">And no wonder, for all other birds as well as
+                                        these swallow stones, to assist them in grinding their
+                                        meat.</hi> Thus far <hi rend="italic"><name type="person" ref="128">Clusius</name>.</hi>
+                                </p>
+                                <p><note type="editorial">*
+                                            <hi rend="italic">Hist. Natur. <lb/>&amp; Medic.
+                                                In<lb break="no"/>diae Oriental.</hi> <lb/>lib. 5. cap.
+                                            17.</note> 
+                                    *<hi rend="italic"><name type="person" ref="151">Bontius</name></hi> writes, that this Bird is for
+                                    bigness of mean size, between an <hi rend="italic">Ostrich</hi>
+                                    and a <hi rend="italic">Turkey,</hi> from which it partly
+                                    differs in shape, and partly agrees with them, especially with
+                                    the <hi rend="italic">African Ostriches,</hi> if you consider
+                                    the Rump, quils, and feathers: So that it shews like a Pigmy
+                                    among them, if you regard the shortness of its Legs. It hath a
+                                    great, ill-favoured Head, covered with a kind of membrane
+                                    resembling a hood: Great, black Eyes, a bending, prominent, fat
+                                    Neck: An extraordinary long, strong, bluish white Bill, only the
+                                    ends of each Mandible are of a different colour, that of the
+                                    upper black, that of the nether yellowish, both sharp-pointed
+                                    and crooked. It gapes huge wide, as being naturally very
+                                    voracious. Its body is fat, round, co­vered with soft,
+                                    grey feathers, after the manner of an <hi rend="italic">Ostriches:</hi> In each side instead of hard Wing-feathers
+                                    or quils, it is furnished with small soft-feathered Wings, of a
+                                    yellowish ash-colour; and behind the Rump, instead of a Tail, is
+                                    adorned with five small curled feathers of the same colour. It
+                                    hath yellow Legs, thick, but very short; four Toes in each foot,
+                                    solid, long, as it were scaly, armed with strong, black Claws.
+                                    It is a slow-paced and stupid bird, and which easily becomes a
+                                    prey to the Fowlers. The flesh, especially of the Breast, is
+                                    fat, esculent, and so copious, that three or four <hi rend="italic">Dodos</hi> will sometimes suffice to fill an
+                                    hundred Seamens bellies. If they be old, or not well boyled,
+                                    they are of difficult concoction, and are salted and stored up
+                                    for provision of victual. There are found in their stomachs
+                                    stones of an ash-colour of di­vers figures and
+                                    magnitudes; yet not bred there as the common people and Seamen
+                                        <pb n="154"/> fancy, but swallowed by the Bird; as though by
+                                    this mark also Nature would manifest, that these Fowl are of the
+                                        <hi rend="italic">Ostrich</hi> kind in that they swallow any
+                                    hard things, though they do not digest them. Thus <hi rend="italic"><name type="person" ref="151">Bontius</name>.</hi>
+                                </p>
+                                <p>We have seen this Bird dried, or its skin stuft in <name type="place" ref="1419"><name type="person" ref="26" rend="italic">Tradescants</name> Cabinet</name>.</p>
+                                <p><gap reason="excerpt" resp="editorial"><desc rend="center">. . .</desc></gap></p>
+                            </div>
+                        </div>
+
+                        <div type="chapter" met="18">
+                            <head>CHAP. XVIII. <hi rend="italic">Birds of the Thrush-kind, that are
+                                    black of colour.</hi>
+                            </head><p><gap reason="excerpt" resp="editorial"><desc rend="center">. . .</desc></gap></p>
+                            <pb n="193"/>
+
+                            <div type="subsection" n="4">
+                                <head>§. IV. <hi rend="italic">The <name type="place" ref="463">Indian</name> Mockbird,</hi> Caeruleus
+                                    Indicus. </head>
+
+                                <p><choice><orig>WE</orig><reg>We</reg></choice> saw this Bird dried in <name type="place" ref="1419"><name type="person" ref="26" rend="italic">Tradescants</name>
+                                    Cabinet</name>. It is of the bigness of a com­mon <hi rend="italic">Lark,</hi> hath a streight sharp Bill, a long
+                                    Tail: And is all over of a blue colour. Upon second thoughts,
+                                    however <name type="person" ref="26" rend="italic"><name type="person" ref="51">Tradescant</name></name> might put the Epithete
+                                    of <hi rend="italic">Indi­an</hi> upon this bird, I judge
+                                    it to be no other than the <hi rend="italic">Caeruleus</hi> or
+                                        <hi rend="italic">Blue Ouzel</hi> of 
+                                    <hi rend="italic"><name type="person" ref="124"><persName key="Pierre Belon" ref="124">Bellonius</persName></name>,</hi> 
+                                    described in the precedent Article.</p>
+                            </div>
+
+                            <div type="subsection" n="5">
+                                <head>§. V. * <hi rend="italic"><name type="person" ref="122"><persName key="Aldrovandi" ref="122">Aldrovandus</persName></name> his <name type="place" ref="96">Brasilian</name></hi>
+                                    Merula, Book 16. Chap. 16. </head>
+                                <p><name type="person" rend="italic" ref="124"><choice><orig><persName key="Pierre Belon" ref="124">BEllonius</persName></orig><reg><persName key="Pierre Belon" ref="124">Bellonius</persName></reg></choice></name> 
+                                    figures this bird among the <hi rend="italic">Merulae,</hi> induced only by this reason,
+                                    that those who bring it out of 
+                                    <hi rend="italic"><name type="person" ref="96"><placeName key="Brasil" ref="96">Brasil</placeName></name></hi>
+                                    into <hi rend="italic"><name type="person" ref="64">Europe</name></hi> call it, the <hi rend="italic"><name type="place" ref="96">Brasilian</name> Blackbird.</hi> Where­fore
+                                    seeing he speaks nothing concerning the nature of the Bird, and
+                                    it is alike un­known to me, I also adjoyn it to the <hi rend="italic">Merulae,</hi> although in the shortness, or
+                                    rather crookedness, of its Bill it differs much from them. Those
+                                    (saith <name type="person" rend="italic" ref="124">Bellonius)</name> who trade in Countries
+                                    newly discovered, bring back thence such strange rarities as
+                                    they think will sell dear with us here: But because they cannot
+                                    bring the birds themselves alive in Cages, therefore they flay
+                                    off the skins of such as are more beautiful than the rest, as
+                                    this is, and bringing them over make a great gain of the sale of
+                                    them; especi­ally of this which they call, the <hi rend="italic"><name type="place" ref="96">Brasilian</name> Blackbird;</hi> though in bigness it
+                                    differs from a <hi rend="italic">Blackbird.</hi> The colour of
+                                    the whole body, except the Tail and Wings, which <pb n="194"/>
+                                    are black; is so deep [perchance by the word <hi rend="italic">intensè</hi> he may mean bright] a red, that it exceeds all
+                                    other rednesses. The Tail is long; the Feet and Legs black; The
+                                    Bill short, as in a <hi rend="italic">Sparrow.</hi> The feathers
+                                    are red to the very bottom. That which <hi rend="italic"><name type="person" ref="122"><persName key="Aldrovandi" ref="122">Aldrovandus</persName></name></hi> describes, perchance from a picture, was
+                                    in some things different from <hi rend="italic"><name type="person" ref="124">Bellonius</name></hi>
+                                    his bird. For, saith he, the Wings are not all over black, but
+                                    all the upper feathers by the shoulders of a deep red. Next to
+                                    them are some black ones, then red ones again; the subsequent,
+                                        <hi rend="italic">viz.</hi> all the great feathers, being
+                                    black, as is also the Tail. The Bill also is not so short as in
+                                        <hi rend="italic">Sparrows,</hi> yet thick, and remarkably
+                                    crooked, without of a dusky colour, within yellow, as I
+                                    conjecture from the colour of the corners of the mouth <hi rend="italic">[rictûs.]</hi> Moreover, the Feet are not
+                                    black, but of an ash-colour, only a little dusky, being great
+                                    for the proportion of the Legs: The Claws short, but crooked, of
+                                    the same colour. </p>
+                                <p>We have seen in <name type="place" ref="1419"><name type="person" ref="26" rend="italic">Tradescants</name> Cabinet</name> a red
+                                        <hi rend="italic"><name type="place" ref="463">Indian</name></hi> bird dried, of the bigness
+                                    almost of a <hi rend="italic">Mavis,</hi> having a long Tail,
+                                    which perchance is the same with the bird in this
+                                    Ar­ticle described.</p>
+                                <p><gap reason="excerpt" resp="editorial"><desc rend="center">. . .</desc></gap></p>
+                            </div>
+
+                            <div type="subsection" n="7">
+                                <head>§. VII. <hi rend="italic">The red-breasted <name type="place" ref="463">Indian</name> Blackbird,
+                                        perchance the</hi> Jacapu <hi rend="italic">of
+                                            <name type="person" rend="italic" ref="975">Marggrave</name>.</hi>
+                                </head>
+                                <p>WE saw the Case of this bird in <name type="place" ref="1419"><name type="person" ref="26" rend="italic">Tradescants</name> Cabinet</name>. It was of the bigness and shape
+                                    of a <hi rend="italic">Blackbird,</hi> as far as I could judge
+                                    by the dried skin. The colour of the whole upper side was black;
+                                    only the edges of the feathers about the Rump were ash-coloured.
+                                    The Breast was of a scarlet colour: The Bill like a <hi rend="italic">Blackbirds:</hi> The Tail also long, and like
+                                    a <hi rend="italic">Blackbirds.</hi>
+                                </p>
+                                <p>I take this to be the same bird, which 
+                                    <name type="person" rend="italic" ref="975">Marggrave</name> describes under the title of <hi rend="italic">Jacapu</hi> of the <hi rend="italic"><name type="place" ref="96">Brasilian</name>s,</hi> though he attribute to it only the bigness
+                                    of a <hi rend="italic">Lark.</hi> It hath (saith he) a long
+                                    Tail, shorter Wings, short and black Legs, with sharp Claws on
+                                    the four toes: A Bill a little crooked and black, half an inch
+                                    long. The whole body is cove­red with shining black
+                                    feathers; yet under the Throat spots of a Vermilion colour are
+                                    mingled with the black. This bird differs from ours in its
+                                    smalness, and the shortness of its Bill.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <pb n="286"/>
+
+            <div type="book" n="3">
+                <head>BOOK III.</head>
+
+
+                <div type="part" n="1">
+                    <head>PART I.</head>
+
+                    <div type="section" n="2">
+                        <head>SECTION II. <hi rend="italic">Of Cloven-footed Piscivorous
+                                Water-fowl.</hi>
+                        </head><p><gap reason="excerpt" resp="editorial"><desc rend="center">. . .</desc></gap></p>
+
+                        <div type="chapter" n="2">
+                            <head>CHAP. II. <hi rend="italic">Of the Stork.</hi> De Ciconia. </head>
+
+                            <div type="subsection" n="1">
+                                <head>§. 1. <hi rend="italic">The common or white Stork:</hi>
+                                    Ciconia alba. </head>
+                                <p>IT is bigger than the common <hi rend="italic">Heron:</hi> Its
+                                    Neck thicker and shorter than the <hi rend="italic">Herons:</hi> Its Head, Neck, and fore-part white:
+                                    The Rump and outside of the Wings black: The Belly white. The
+                                    quil-feathers of the Wings black: The Tail white: The Bill long,
+                                    red, like a <hi rend="italic">Herons</hi> Bill. The Legs long,
+                                    red, bare almost to the Knees or second joynt from the Foot. The
+                                    Toes from the divarication to the first joynt connected by an
+                                    intervening membrane. The Vertebres of the Neck are
+                                    four­teen in number. Its Claws are broad, like the nails
+                                    of a man; so that [...]. will not to be sufficient to difference
+                                    a man from a <hi rend="italic">Stork</hi> with its feathers
+                                    pluckt off. N. B. <hi rend="italic"><name type="person" ref="4132">Herodotus</name></hi> attributes
+                                    such like Claws to the white <hi rend="italic">Aegyptian
+                                        Ibis.</hi> The Claw of the middle Toe is not serrate. It is
+                                    seldom seen in <hi rend="italic"><name type="place" ref="22">England</name>,</hi> and not unless
+                                    driven overby a storm of wind, or some other accident. My
+                                        honoured Friend Sir <name type="person" ref="51" rend="italic">Thomas Brown</name> of 
+                                    <name type="place" ref="286" rend="italic">Norwich</name>, a person deservedly famous, for
+                                    his skill in all parts of learning, but especially in natural
+                                    History, sent me a Picture of one of these birds taken on the
+                                    Coast of <name type="place" rend="italic" ref="59">Norfolk</name>, drawn by the life, with
+                                    a short description of it, as follows. It was about a yard high:
+                                    It had  <note type="orig">* Of a red
+                                            <lb/>lead colour.</note> *red Bill and Legs; the Claws
+                                    of the Feet like hu­mane Nails. The lower parts of both
+                                    Wings were black, so that when the Wings were closed or gathered
+                                    up, the lower part of the Back appeared black. Yet the Tail,
+                                    which was wholly covered and hid by the Wings (as being scarce
+                                    an inch long) was white, as was also the upper part of the Body.
+                                    The quills were equal in bigness to <hi rend="italic">Swans</hi>
+                                    quills. It made a snapping or clattering noise with its Bill, by
+                                    the quick and frequent striking one Chap against the other. It
+                                    readily eat Frogs and Land-snails which we offered it; but
+                                    refused Toads. It is but rarely seen on our Coasts. So far Sir
+                                        <name type="person" rend="italic" ref="51">Thomas Brown</name>: Whose description
+                                    agrees exactly with ours in all points. </p>
+                                <p>The white <hi rend="italic">Stork,</hi> saith <note type="orig">* In his
+                                            An<lb break="no"/>notations on 
+                                    <lb/><hi rend="italic"><name type="person" ref="4133">Recchus</name></hi>
+                                            his <lb/>Animals.</note>
+                                    *<hi rend="italic"><name type="person" ref="157">Joannes Faber</name>,</hi> is very rare in <hi rend="italic"><name type="place" ref="71">Italy</name>:</hi> All these twenty eight years that
+                                    I have spent at <hi rend="italic"><name type="place" ref="70">Rome</name>,</hi> I never but once
+                                    saw a white <hi rend="italic">Stork,</hi> and then but one, on
+                                    the top of the Tower, called <name type="place" rend="italic">Torre de
+                                        Conti</name>, I know not by what wind driven thither. <hi rend="italic"><name type="person" ref="122"><persName key="Aldrovandi" ref="122">Aldrovandus</persName></name></hi> also himself an <hi rend="italic">Italian</hi> born, and then a very old man,
+                                    confessed that he had never seen a <hi rend="italic">white
+                                        Stork,</hi> for that the Territory of <name type="place" ref="121" rend="rend">Bologna</name> did neither breed nor feed them. But sith it
+                                    is most certain, that <hi rend="italic">Storks</hi> before the
+                                    ap­proach of Winter fly out of <hi rend="italic"><name type="place" ref="63">Germany</name></hi> into more temperate and hot Countries, very
+                                    strange it is, <hi rend="italic"><name type="place" ref="71">Italy</name></hi> being contiguous to
+                                        <hi rend="italic"><name type="place" ref="63">Germany</name>,</hi> and hotter than it, that
+                                    they should not fly thither, at least pass over it in their
+                                    flight Southward. </p>
+                                <p>I know them (saith the same <name type="person" ref="157" rend="italic">Faber</name>) who
+                                    have learned by ocular inspection, that <hi rend="italic">Storks</hi> and <hi rend="italic">Peacocks,</hi> when such
+                                    Serpents as they swallow passed alive through their bodies, (as
+                                    they will do several times, creeping out at their Fundaments)
+                                    use to set up their Rumps, and clap their Tails against a wall
+                                    so long, till they feel the Serpents dead within them.</p>
+                                <p><gap reason="excerpt" resp="editorial"><desc rend="center">. . .</desc></gap></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div type="section">
+                        <head>SECTION V. <hi rend="italic">Water-fowl not piscivorous, with slender
+                                Bills, of a middle length.</hi>
+                        </head>
+                        <p><gap reason="excerpt" resp="editorial"><desc rend="center">. . .</desc></gap></p>
+                        <pb n="306"/>
+
+                        <div type="chapter" n="14">
+                            <head>CHAP. XIV. <hi rend="italic">The Stone-Curlew: The</hi> Oedicnemus
+                                <hi rend="italic">of <name type="person" ref="124">Bellonius</name>:</hi> Charadrius <hi rend="italic">of <name type="person" ref="1906">Gesner</name>, <name type="person" ref="122"><persName key="Aldrovandi" ref="122">Aldrov</persName></name>. called
+                                        at</hi> <name type="place" ref="70">Rome</name>, Curlotte.*</head>
+                            <p><choice><orig>ITs</orig><reg>Its</reg></choice> <note type="orig" rend="normal">* Lib. 13. c. 15.</note>
+                                weight is eighteen ounces: Its length from Bill to Tail eighteen
+                                inches, to the points of the Claws twenty: Its breadth from tip to
+                                tip of the Wings extended thirty six inches. The length of the Bill,
+                                measuring from the tip to the angles of the mouth, two inches. The
+                                Bill is not much unlike a <hi rend="italic">Gulls,</hi> but
+                                streight, sharp-pointed, black as far as the Nosthrils, then yellow.
+                                The <hi rend="italic">Irides</hi> of the Eyes and edges of the
+                                Eye-lids are yellow. Under the Eyes is a bare space of a yellowish
+                                green colour. The Legs are long and yellow. The Claws small and
+                                black.It hath only three fore-toes, wanting the back-toe. The
+                                outmost Toe a little longer than the mid­dlemost; All joyned
+                                together by a certain membrane, which on the inside the middle toe
+                                begins at the second joynt, on the outside at the first, and reaches
+                                almost to the Claws of the outer Toes. The Legs (as <hi rend="italic"><name type="person" ref="124">Bellonius</name></hi> observes) are very thick below the
+                                Knees, as if they were swoln, by reason of the bones, which are
+                                there great; wherefore that he might render the Bird more easie to
+                                be known, he named it, <hi rend="italic">Oedic­nemus.</hi>
+                                The upper Legs are above half way bare of feathers; which note
+                                alone, were there no other, argues this Bird to be a Water-fowl. The
+                                Chin, Breast, and Thighs are white: The Throat, Neck, Back, and Head
+                                covered with feathers, ha­ving their middle parts black,
+                                their lateral or borders of a reddish ash-colour, like that of a <hi rend="italic">Curlew:</hi> 
+                                Whence they of <hi rend="italic"><name type="place" ref="59">Norfolk</name></hi> 
+                                call it, The <hi rend="italic">Stone-Curlew.</hi>
+                            </p>
+                            <p>In each Wing are about twenty nine quil-feathers; the first and
+                                second of which have a transverse white spot, else their exteriour
+                                surface black: The four next to these black: The three following
+                                have their bottoms and tips white: Then succeed thir­teen
+                                black ones; the last or next to the body are of the same colour with
+                                it. The first feathers of the second row are black: The rest have
+                                white tips, and under the tips a cross line or border of black. In
+                                the lesser rows of Wing-feathers is a transverse bed or bar of
+                                white. The coverts of the under-side of the Wings, especially those
+                                springing from the shoulders, are purely white. The outmost feathers
+                                of the Tail for the space of an inch are black, then white: The next
+                                to these, one on each side, are variegated, with one or two brown
+                                bars crossing the white part: The rest, the white by degrees fading
+                                and disappearing, become of the same colour with the body. The tips
+                                of the middlemost are a little black. The Tail is five inches long,
+                                consisting of twelve feathers. The guts great: The blind guts three
+                                inches long: The single um­bilical blind gut half an inch. We
+                                bought this bird in the Market at <hi rend="italic"><name type="place" ref="70">Rome</name>,</hi> and
+                                there described it.</p>
+                            <p>It breeds very late in the year (saith <name type="person" rend="italic" ref="124">Bellonius</name>) for we found of the Young about the end of <hi rend="italic">October,</hi> which could not yet fly. <hi rend="italic"><name type="person" ref="124">Bellonius</name></hi> when he travelled first in <hi rend="italic"><name type="place" ref="22">England</name>,</hi> observed this Bird here; for the
+                                feathers and the Feet very like to a <hi rend="italic">Bustard.</hi>
+                            </p>
+                            <p>The learned and famous Sir <name type="person" ref="51" rend="italic">Thomas Brown</name>
+                                Knight, Physician in <name type="place" ref="286" rend="italic">Norwich</name>, informed us,
+                                that it is found about <hi rend="italic"><name type="place" ref="2625">Thetford</name></hi> in <hi rend="italic"><name type="place" ref="59">Norfolk</name>,</hi> where they call it the <hi rend="italic">Stone-Curlew,</hi> and that its cry is something
+                                like that of a <hi rend="italic">green Plover.</hi>
+                            </p>
+                            <p>Another bird congenerous to this, wanting also the back-toe, (which
+                                    <hi rend="italic"><name type="person" ref="122"><persName key="Aldrovandi" ref="122">Aldrovandus</persName></name></hi> described from the intuition
+                                of a bare Picture) but different in that its Thighs are feathered,
+                                and its Toes without any intermediate membrane, see in his <hi rend="italic">Ornithology,</hi> <pb n="307"/> Book 13. Chap. 15. I suspect
+                                it to be the same with the <hi rend="italic">Oedicnemus,</hi> and
+                                those diffe­rent notes to be but mistakes of the Painter.</p>
+                            <p>The <hi rend="italic">Charadrios</hi> of <hi rend="italic"><name type="person" ref="1906">Gesner</name></hi>,*
+                                <note type="orig">* The <hi rend="italic">Charadri<lb break="no"/>os</hi> of <hi rend="italic"><name type="person" ref="1906">Gesner</name>.</hi>
+                                    </note> which <hi rend="italic"><name type="person" ref="122"><persName key="Aldrovandi" ref="122">Aldrovand</persName></name></hi> judges to
+                                be the same with our <hi rend="italic">Oedic­nemus,</hi> is a
+                                foolish and stupid bird. Being shut up in any room, it walks up and
+                                down, sometimes in a round about a Pillar or any other thing for a
+                                long time, and if any block or impediment be in its way it will
+                                rather leap over it, than decline from the right way.  <note type="orig">* It winks <lb/>not.
+                                    </note> *It shuts not its Eyes though you put your finger
+                                to them. It is ea­sily made tame, for when it is at liberty
+                                in the fields it is not much afraid of a man. It is a Water-fowl,
+                                and lives in fenny Meadows, or about Marshes. In houses also it
+                                catches Mice in the night time. I hear that it abounds in the <name type="place" rend="italic">Low Countries</name>, that it wanders up and down in
+                                the night, and makes a noise like a Whistle, or Pipe.</p>
+                        </div>
+                    </div>
+
+                    <div type="section" n="6">
+                        <head>SECTION VI. <hi rend="italic">Cloven-footed Water-fowl with short
+                                Bills, that feed upon Insects.</hi>
+                        </head>
+                        <p><gap reason="excerpt" resp="editorial"><desc rend="center">. . .</desc></gap></p>
+
+                        <pb n="311"/>
+
+                        <div type="chapter" n="5">
+                            <head>CHAP. V. <hi rend="italic">The Turn-stone,or Sea-Dottrel:</hi>
+                                Morinellus marinus <hi rend="italic">of <name type="person" ref="51">Sir <name type="person" ref="51">Thomas Brown</name>.</name></hi> An
+                                Cinclus Turneri? </head>
+                            <p>IT is lesser than a <hi rend="italic">Plover,</hi> and something
+                                bigger than a <hi rend="italic">Blackbird:</hi> in length from the
+                                tip of the Bill to the points of the Claws ten inches: In breadth
+                                between the extremities of the Wings extended twenty. It is
+                                long-bodied, and hath but an indifferent Head. The Cocks and Hens
+                                differ not in colours. Its Bill is streight, black, an inch long,
+                                from a thick base lessening by degrees into a sharp point, something
+                                flat, stronger and stiffer than in the <hi rend="italic">Woodcock</hi> kind.</p>
+                            <p>The colour of the Plumage in the Head, Neck, Shoulders, Wings, and
+                                upper part of the Breast is brown. [Mr. <name type="person" ref="6">Willughby</name> makes the feathers covering these parts to be
+                                black, or purplish black in the middle, cinereous, or of a white
+                                russet about the edges.] All the under-side, but the Breast, is as
+                                white as snow. The Plumage on the middle of the Back is white; but
+                                on the very Rump is a great, transverse, black spot. The long
+                                scapular feathers are brown, with edges of an ash-colour, or dirty
+                                white. The quil-feathers of the Wings are about twenty six, of a
+                                brown or dusky colour: But from the outmost three or four their
+                                bottoms are white, continually more and more, till in the nineteenth
+                                and twentieth the white spreads almost over the whole feather. In
+                                the second row the foremost feathers are wholly black: The tips of
+                                the following being white, together make a broad line of white cross
+                                the Wing. The edges of the lesser rows are red. Near the second
+                                joynt of the Wing is a white spot. The Tail is two inches and an
+                                half long, consisting of twelve feathers, of which the lower half is
+                                white, the upper black, yet the very tips white.</p>
+                            <p>The Legs are short, of a Saffron or Orange colour. The Claws black:
+                                The Toes divided almost to the bottom, but the outmost and middle
+                                toe coupled by a mem­brane as far as the first joynt. It hath
+                                the back-toe.</p>
+                            <p>The Liver is divided into two Lobes, of which the <note type="orig">* That on the <lb/>right
+                                        side.</note>
+                                *<hi rend="italic">dexter</hi> is much the bigger. I found no Gall,
+                                yet dare not say that it wants one. Upon the Western shores of 
+                                <hi rend="italic"><name type="place" ref="22">England</name>,</hi> about 
+                                <name type="place" rend="italic" ref="1322">Pensans</name>
+                                in <name type="place" ref="113" rend="italic">Cornwal</name>, and 
+                                <name type="place" rend="italic">Aberdaren</name> in 
+                                <name type="place" rend="italic">Merionethshire</name> in 
+                                <name type="place" rend="italic" ref="107">Wales</name>, we
+                                ob­served many of them, where they fly three or four in
+                                company: Nor are they less frequent on the Sea-coasts of 
+                                <hi rend="italic"><name type="place" ref="59">Norfolk</name>.</hi>
+                            </p>
+                            <p>Our honoured Friend Sir <name type="person" ref="51" rend="italic">Thomas Brown</name> 
+                                of <hi rend="italic"><name type="place" ref="286">Norwich</name></hi> sent us the Picture of this bird by
+                                the title of the <hi rend="italic">Sea-Dottrel.</hi>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div type="part" n="3">
+                    <head>PART III. <hi rend="italic">Of</hi> WHOLE-FOOTED BIRDS <hi rend="italic">with shorter Legs.</hi>
+                    </head>
+                    <p><gap reason="excerpt" resp="editorial"><desc rend="center">. . .</desc></gap></p>
+                    <div type="section" n="1">
+                        <head>SECTION I. <hi rend="italic">Whole-footed Birds that want the
+                                Back-toe.</hi>
+                        </head>
+
+                        <pb n="322"/>
+
+                        <div type="chapter" n="1">
+                            <head>CHAP. I. <hi rend="italic">The Bird called Penguin by our Seamen,
+                                    which seems to be Hoiers</hi> Goifugel. </head>
+
+                            <p>IN bigness it comes near to a tame <hi rend="italic">Goose.</hi> The
+                                colour of the upper side is black, of the under white. Its Wings are
+                                very small, and seem to be altogether unsit for flight. Its Bill is
+                                like the <hi rend="italic">Auks,</hi> but longer and broader,
+                                compressed sideways, graven in with seven or eight furrows in the
+                                upper mandible, with ten in the lower. The lower Mandible also
+                                bunches out into an angle downward, like a <hi rend="italic">Gulls</hi> Bill. It differs from the <hi rend="italic">Auks</hi> Bill in that it hath no white lines. From the Bill to
+                                the Eyes on each side is extended a line or spot of white. It wants
+                                the back-toe, and hath a very short tail.</p>
+                            <p>I saw and described it dried in the <name type="place" ref="1478">Repository of the <name type="person" ref="11" rend="italic"><name type="person" ref="11">Royal Society</name>.</name></name> I saw it also in <name type="place" ref="1419"><name type="person" ref="26" rend="italic">Tradescants</name> Cabinet</name> at <hi rend="italic"><name type="place" ref="342">Lambeth</name></hi> near <hi rend="italic"><name type="place" ref="52">London</name>.</hi>
+                            </p>
+
+                           <div><head>The Penguin of the Hollanders, or Magellanic Goose of <name type="person" ref="128">Clusius</name>.</head>
+
+                            <p>The Birds of this kind, found in the Islands of the strait of
+                                <name type="place" ref="1048">Magellane</name>, the <hi rend="italic">Hol­landers</hi> from their fatness called <hi rend="italic">Penguins</hi>. [I
+                                find in <name type="person">Mr. <hi rend="italic">Terries</hi></name> Voyage to the <hi rend="italic"><name type="person" ref="136">East Indies</name></hi> mention made of this
+                                Bird. He describes it to be a great lazy bird, with a white Head,
+                                and coal-black body. Now seeing <hi rend="italic">Penguin</hi> in the <hi rend="italic">Welsh</hi> Tongue
+                                signi­fies a <hi rend="italic">white head</hi>, I rather think the Bird was so called from
+                                its white head; though I confess that our Penguin hath not a white
+                                Head, but only some white about the Eyes.] This (saith <hi rend="italic"><name type="person" ref="128">Clusius</name></hi>) is a
+                                Sea-fowl of the <hi rend="italic">Goose</hi>-kind, though unlike in its Bill. It lives in
+                                the Sea; is very fat, and of the bigness of a large Goose, for the
+                                old ones in this kind are found to weigh thirteen, fourteen, yea,
+                                sometimes sixteen pounds; the younger eight, ten, and twelve. The
+                                upper side of the body is covered with black feathers, the under
+                                side with white. The Neck (which in some is short and thick) hath as
+                                it were a ring or collar of white feathers. Their skin is thick like
+                                a <hi rend="italic">Swines</hi>. They want Wings, but instead thereof they have two small
+                                skinny sins, hanging down by their sides like two little arms,
+                                covered on the upper side with short, narrow, stiff feathers,
+                                thick-set; on the under side with lesser and stiffer, and those
+                                white, wherewith in some places there are black ones intermixt;
+                                altogether unfit for flight, but such as by their help the birds
+                                swim swiftly. I understood that they abide for the most part in the
+                                water, and go to land only in breeding time, and for the most part
+                                lie three or four in one hole. They have a Bill bigger than a
+                                <hi rend="italic">Ra­vens</hi>, but not so  <note type="orig">* Elated.</note>  *high; and a very short
+                                Tail; black, flat Feet, of the form of <hi rend="italic">Geese</hi>­feet, but not so broad.
+                                They walk erect, with their heads on high, their fin-like Wings
+                                hanging down by their sides like arms, so that to them who see them
+                                afar off they appear like so many diminutive men or <hi rend="italic">Pigmies</hi>. I find
+                                in the Diaries [or Jour­nals of that Voyage] that they feed only
+                                upon fish, yet is not their flesh of any un­grateful relish, nor
+                                doth it taste of fish. They dig deep holes in the shore like
+                                Cony­burroughs, making all the ground sometimes so hollow, that the
+                                Seamen walking over it would often sink up to the knees in those
+                                vaults. These perchance are those <hi rend="italic">Geese</hi>, which <hi rend="italic"><name type="person">Gomora</name></hi> saith are
+                                without feathers, never come out of the Sea, and instead of feathers
+                                are covered with long hair. Thus far <hi rend="italic"><name type="person" ref="128">Clusius</name></hi>, whose description
+                                agrees well enough to our <hi rend="italic">Penguin</hi>; but his figure is false in that
+                                it is drawn with four toes in each foot.</p>
+
+                            <p><hi rend="italic"><name type="person" ref="132">Olaus Wormius</name></hi>*  <note type="orig">* Musei, lib. 3. <lb/>cap. 19.</note>  treating of
+                                this bird, to <hi rend="italic"><name type="person" ref="128">Clusius</name></hi> his description adds of his own observation as
+                                followeth. This Bird was brought me from the <name type="place">Ferroyer Islands</name>; I
+                                kept it alive for some months at my house. It was a young one, for
+                                it had not arrived to that bigness as to exceed a common <hi rend="italic">Goose</hi>. It
+                                would swallow an entire <hi rend="italic">Herring</hi> at once, and sometimes three
+                                successively before it was satisfied. The feathers on its back were
+                                so soft and even that they resembled black Velvet. Its Belly was of
+                                a pure white. Above the Eyes it had a round white spot, of the
+                                bigness of a Dollar, that you would have sworn it were a pair of
+                                Spectacles, (which <hi rend="italic"><name type="person" ref="128">Clusius</name></hi> observed not) nei­ther were its Wings of
+                                that figure he expresses; but a little broader, with a border of
+                                white.</p>
+
+                            <p>Whether it hath or wants the back-toe neither <hi rend="italic"><name type="person" ref="128">Clusius</name></hi> nor <hi rend="italic"><name type="person" ref="132">Wormius</name></hi> in
+                                their de­scriptions make any mention. In <hi rend="italic"><name type="person" ref="132">Wormius</name></hi> his figure there
+                                are no back-toes drawn.</p>
+
+                            <p>This Bird exceeding the rest of this kind in bigness justly
+                                challenges the first place among them.</p>
+                           
+                               <p><gap reason="excerpt" resp="editorial"><desc rend="center">. . .</desc></gap></p></div>
+                        </div>
+                    </div>
+
+                    <div type="section" n="2">
+                        
+                        <head>SECTION II. <hi rend="italic">Whole-footed Birds with four fore-toes,
+                                or four toes all web'd together.</hi>
+                        </head><p><gap reason="excerpt" resp="editorial"><desc rend="center">. . .</desc></gap></p>
+                        <pb n="331"/>
+
+                        <div type="chapter" n="6">
+                            <head>CHAP. VI. <hi rend="italic">The Tropic Bird.</hi>
+                            </head>
+                            <p>IT is of the bigness of a <hi rend="italic">Duck,</hi> hath a red
+                                Bill, about two inches long, somewhat bending downward, and
+                                sharp-pointed. A line of black is drawn on each side from the corner
+                                of the mouth to the back of the Head. The Belly is white: The Back
+                                also is white, but variegated with transverse lines of black thick
+                                set, which make it very beautiful to behold. The Wings are very
+                                long, yet each single feather short, as in the <hi rend="italic">Soland-goose.</hi> In the outmost quil-feathers the one Web,
+                                    <hi rend="italic">i.e.</hi> that on the outside the shaft is
+                                black, the other or inner Web white; in the next to these the middle
+                                part of the feather along the shaft is black, the edges on both
+                                sides white; the next to these are all white; those next of all to
+                                the body black, and longer than the rest. The Feet are black, the
+                                Legs white: All the four Toes web'd toge­ther. In the Tail
+                                (if one may rely upon the stuft skin, or credit the relation of
+                                those those that sent it) are only two very long feathers, of about
+                                eighteen inches, narrow, and ending in snarp points. This
+                                description I took from the case of the bird con­served in
+                                <name type="place" ref="1478">the Repository of the <name type="person" ref="11" rend="italic">Royal Society</name></name>.
+                            </p>
+                            <p>It is called the <hi rend="italic">Tropic-bird</hi> because it is
+                                found about the Latitude of the Tropic circles, and no where else,
+                                so far as hath been by our English Travellers hitherto observed.</p>
+                            <p>My honoured and ingenious friend, Mr. <hi rend="italic"><name type="person" ref="1324">Martin
+                                    Lister</name></hi> of <name type="place" rend="italic">York,</name> takes this to be the
+                                bird described in the History of the 
+                                <hi rend="italic"><name type="place" ref="1074">Carribbee</name></hi> 
+                                Islands in these words: <hi rend="italic">There
+                                    are seen near these Islands, and sometimes at a great distance
+                                    from them in the Sea, certain birds</hi>
+                                <pb n="332"/>
+                                <hi rend="italic">perfectly white, whose Beaks and Feet are as red
+                                    as Coral. They are somewhat bigger than Crows: They are
+                                    conceived to be a kind of Herons, because their Tails consist of
+                                    two long and precious feathers, by which they are distinguished
+                                    from all other birds frequenting the Sea.</hi> This, saith Mr.
+                                    <hi rend="italic"><name type="person" ref="1324">Lister</name>,</hi> can be meant of no other than the
+                                    <hi rend="italic">Tropic-bird:</hi> But then it is wrong
+                                described, with red legs, and a perfectly white body.</p>
+                            <p><gap reason="excerpt" resp="editorial"><desc rend="center">. . .</desc></gap></p>
+                        </div>
+                    </div>
+
+                    <div type="section" n="3">
+                        <head>SECTION III. <hi rend="italic">Whole-footed Birds, having the back-toe
+                                loose, with a narrow Bill, hooked at the end, and not toothed.</hi>
+                        </head>
+                        <p><gap reason="excerpt" resp="editorial"><desc rend="center">. . .</desc></gap></p>
+
+                        <pb n="333"/>
+
+                        <div type="chapter" n="2">
+                            <head>CHAP. II. <hi rend="italic">The Puffin of the <name type="place">Isle of Man</name>, which I
+                                    take to be the</hi> Puffinus Anglorum. </head>
+                            <p>MR. <hi rend="italic"><name type="person" ref="6">Willughby</name></hi> saw and described only a young
+                                one taken out of the Nest, who makes it equal in bigness to a tame
+                                <hi rend="italic">Pigeon.</hi> Those which I saw dried in <name type="place" ref="1478">the
+                                    Repository of the <name type="person" ref="11" rend="italic">Royal Society</name></name>, and in <name type="place" ref="1419"><name type="person" ref="26" rend="italic">Tradescants</name> Cabinet</name>, seemed to me somewhat
+                                bigger. Its colour on the Head, Neck, Back, and whole upper side is
+                                dusky or black, on the Breast and Belly white. The Bill is an inch
+                                and half, or it may be two inches long, narrow, black, and for its
+                                figure something like to a <hi rend="italic">Lap­wings</hi>
+                                Bill, the upper Chap being hooked at the end, like a <hi rend="italic">Cormorants.</hi> Its base is co­vered with
+                                a naked skin, in which are the Nosthrils. From the Nosthrils on each
+                                side a furrow or groove is produced almost to the hook. The Head is
+                                blacker than the rest of the Back: The Wings long: The Tail
+                                anhand-breadth long, and black. The Feet underneath black; above,
+                                the outer half of each foot is black, the inner of a pale or whitish
+                                flesh-colour, so that the middle toe is partly white, partly black.
+                                It hath a small back-toe, and black Claws.</p>
+                            <p>For its extraordinary fatness its flesh is esteemed unwholsom meat,
+                                unless it be well seasoned with salt.</p>
+                            <p>At the South end of the <name type="place">Isle of <hi rend="italic">Man</hi></name> lies a
+                                little Islet, divided from <hi rend="italic">Man</hi> by a
+                                narrow channel, called the <hi rend="italic">Calf of
+                                    Man,</hi> on which are no habitations, but only a
+                                Cottage or two lately built. This Islet is full of Conies,
+                                which the <hi rend="italic">Puffins</hi> coming year­ly
+                                dislodge, and build in their Burroughs. They lay each but one Egg
+                                before they sit, like the <hi rend="italic">Razor-bill</hi> and <hi rend="italic">Guillem;</hi> although itbe the common perswasion
+                                that they lay two at a time, of which the one is always addle. They
+                                feed their young ones wondrous fat. The old ones early in the
+                                morning, at break of day, leave their Nests and Young, and the
+                                Island it self, and spend the whole day in fishing in the Sea, never
+                                returning or once setting foot on the Island before Evening
+                                twilight: So that all day the Island is so quiet and still from all
+                                noise as if there were not a bird about it. What­ever fish or
+                                other food they have gotten and swallowed in the day-time, by the
+                                innate heat or proper ferment of the stomach is (as they say)
+                                changed into a certain oyly substance [or rather chyle] a good part
+                                whereof in the night-time they vomit up into the mouths of their
+                                Young, which being therewith nourished grow extraordinarily
+                                fat. When they are come to their full growth, they who are intrusted
+                                by the <note type="orig">* The <name type="person">Earl <lb/>of <name type="place" rend="italic" ref="738">Darby</name></name>.
+                                    in</note> *Lord of the Island draw them out of the Cony-holes,
+                                and that they may the more readily know and keep account of the
+                                number they take, they cut off one foot and <pb n="334"/> reserve
+                                it; which gave occasion to that Fable, that the Puffins are
+                                single-footed. They usually sell them for about nine pence the
+                                dozen, a very cheap rate.* <note type="orig">* The same is <lb/>reported of
+                                    <lb/>the French <lb/><hi rend="italic">Macreuse,</hi> per<lb break="no"/>chance
+                                    the <lb/>same bird <lb/>with the <lb/><hi rend="italic">Puffin.</hi>
+                                </note> They say their flesh is permitted by the <hi rend="italic">Romish</hi> Church to be eaten in <hi rend="italic">Lent,</hi>
+                                being for the taste so like to fish. </p>
+                            <p>
+                                <hi rend="italic"><name type="person" ref="1906">Gesner</name>,</hi> and <hi rend="italic"><name type="person" ref="122"><persName key="Aldrovandi" ref="122">Aldrovand</persName></name></hi>
+                                following him, from the relation of a certain <hi rend="italic">English</hi> man, write, that they want hard feathers, being
+                                covered only with soft feathers, or a kind of down: Which is
+                                altogether false, they being furnished with sufficiently long Wings
+                                and Tail, and flying very swiftly. They say it is a foolish bird,
+                                and easily taken. We are told that they breed not only on the <hi rend="italic">Calf of Man,</hi> but also on the <hi rend="italic">Silly</hi> Islands. Notwithstanding they are sold
+                                so cheap, yet some years there is thirty pounds made of the young
+                                Puffins taken in the <hi rend="italic">Calf of Man:</hi> Whence may
+                                be gathered what number of birds breed there.</p>
+                            
+                            <p><gap reason="excerpt" resp="editorial"><desc rend="center">. . .</desc></gap></p>
+                        </div>
+
+
+
+                        <div type="chapter" n="4">
+                            <head>CHAP. IV. <hi rend="italic">The Shear-water.</hi>
+                            </head>
+                            <p><choice><orig>OUr</orig><reg>Our</reg></choice> learned and worthy friend Sir 
+                                <name type="person" ref="51" rend="italic">Thomas Brown</name>
+                                of <hi rend="italic"><name type="place" ref="286">Norwich</name></hi> among the designs and Pictures of
+                                many other birds, sent us also that of this, with a short
+                                histo­ry of it as followeth. The <hi rend="italic">Shear-water</hi> is a Sea-fowl, which fishermen observe to
+                                resort to their Vessels in some numbers, swimming swiftly to and
+                                fro, backward, forward, and about them, and doth as it were, <hi rend="italic">radere aquam,</hi> shear the water, from whence
+                                perhaps it had its name. It is a fierce and snapping fowl, and very
+                                untracta­ble. I kept two of them five of six weeks in my
+                                house, and they refusing to feed, I caused them to be crammed with
+                                fish, till my Servant grew weary, and gave them over: And they lived
+                                fifteen days without any food. So far Sir <hi rend="italic"><name type="person" ref="51">Thomas</name>.</hi> This Bird, according to the Picture of it, hath a
+                                great head like a <hi rend="italic">Gull:</hi> Its upper part [Head
+                                and Back] were of a dark brown or blackish: Its Chin, Throat, and
+                                Breast white: Its Feet of a flesh-colour: Its Bill long, round,
+                                hooked at the end like a <hi rend="italic">Cormo­rants,</hi>
+                                and blackish: Its Wings long, when gathered up reaching to the end
+                                of the Tail.</p>
+                            
+                            <p><gap reason="excerpt" resp="editorial"><desc rend="center">. . .</desc></gap></p>
+                        </div>
+                    </div>
+
+                    <div type="section" n="5">
+                        <head>SECTION V. <hi rend="italic">Of</hi> DOUCKERS <hi rend="italic">or
+                                Loons, called in Latine,</hi> COLYMBI. </head>
+
+                        <p><gap reason="excerpt" resp="editorial"><desc rend="center">. . .</desc></gap></p><pb n="339"/>
+
+                        <div type="chapter" n="2">
+                            <head>CHAP. II. <hi rend="italic">Cloven-footed</hi> DOUCKERS <hi rend="italic">that have no Tails.</hi>
+                            </head>
+                            <p><gap reason="excerpt" resp="editorial"><desc rend="center">. . .</desc></gap></p>
+                            <div type="subsection" n="4">
+                                <head>§. IV. <hi rend="italic">The grey or ash-coloured Loon of</hi>
+                                    <name type="person" ref="51"><hi rend="italic">Dr.</hi> Brown.</name></head>
+                                <p><choice><orig>THis</orig><reg>This</reg></choice> Bird differs from the common <hi rend="italic">Doucker,</hi>
+                                    as well crested as not crested, in the grey colour of its body,
+                                    being much rarer with us. The Picture represents the feathers on
+                                    the crown of the Head standing up in form of a crest or
+                                    toppin.</p>
+                                
+                                <p><gap reason="excerpt" resp="editorial"><desc rend="center">. . .</desc></gap></p>
+                            </div>
+                        </div>
+
+                        <div type="chapter" n="3">
+                            <head>CHAP. III. <hi rend="italic">Whole-footed</hi> Douckers <hi rend="italic">with Tails.</hi>
+                            </head>
+
+                            <pb n="341"/>
+
+                            <div type="subsection" n="1">
+                                <head>§. I. <hi rend="italic">The greatest speckled Diver or
+                                        Loon:</hi> Colymbus maximus caudatus; Mergus max. Farrensis
+                                    five Arcticus, <hi rend="italic"><name type="person" ref="128">Clus</name>.</hi>
+                                </head>
+                                <p><choice><orig>THis</orig><reg>This</reg></choice> is a singular kind of Bird, and as it were of a middle
+                                    nature between whole-footed birds with four fore-toes and with
+                                    three. In bigness it exceeds a <hi rend="italic">tame Duck,</hi>
+                                    coming near to a <hi rend="italic">Goose.</hi> It is
+                                    long-bodied, hath a round Tail, and a small Head. The upper part
+                                    of the Neck next to the Head is covered with feathers so thick
+                                    set, that it seems to be bigger than the very Head it self.</p>
+                                <p>The colour of the upper part, <hi rend="italic">viz.</hi> the
+                                    Neck, Shoulders, covert-feathers of the Wings, and whole Back,
+                                    is a dark grey or dusky, pointed or speckled with white spots,
+                                    thinner set on the Neck, and thicker on the Back. These white
+                                    spots are big­ger upon the long scapular feathers and
+                                    coverts of the Wings, and smaller in the mid­dle of the
+                                    Back. The lower part of the Neck, the Breast and Belly are
+                                    white. In a bird I saw that was killed in the <name type="place" ref="2624">Isle of <hi rend="italic">Jarsey</hi></name> the Head was black and also the
+                                    Neck, which had a white (or rather grey) ring, about the middle
+                                    of an inch or inch and half broad, consisting of abundance of
+                                    small white specks. We counted in the two outmost <note type="orig">
+                                        <hi rend="italic">* Internodia. <lb/>i. e.</hi> bones
+                                        be<lb break="no"/>tween joynt <lb/>and joynt.</note> *joynts of each Wing
+                                    thirty quil-feathers, but they are short, all black, or of a
+                                    dark brown. It hath a very short Tail, of the figure of a <hi rend="italic">Ducks,</hi> made up of at least twenty
+                                    feathers. Its Bill is streight, sharp, like that of the <hi rend="italic">Guillem,</hi> almost three inches long; the
+                                    upper Mandible black or livid, covered with feathers to the very
+                                    Nosthrils, reflected a little upwards; the nether is white. The
+                                    Nosthrils are divided in the middle by a skin hanging down from
+                                    above. It is whole-footed, and hath very long fore-toes,
+                                    especially the outmost. The back-toe is very short and little.
+                                    Its Legs are of a mean length, but flat and broad like the ends
+                                    of Oars, the exteriour surface being brown or black: The
+                                    interiour livid or pale-blue. The Claws broad like the nails of
+                                    a man. The Legs in this bird are situate almost in the same
+                                    plain with the Back; so that it seems not to be able to walk
+                                    unless erected perpendi­cularly upon the Tail. It hath no
+                                    Labyrinth upon the Wind-pipe. The Liver is di­vided into
+                                    two Lobes, and hath a bladder to contain Gall: Above the stomach
+                                    the Gullet is dilated into a kind of Craw, the interiour surface
+                                    whereof is granulated with certain papillary glandules. The
+                                    Throat is vast, loose, and dilatable. The guts large, especially
+                                    towards the stomach; The stomach less fleshy and musculous than
+                                    in granivorous birds. </p>
+                                <pb n="342"/>
+                                <p>The Bird described was shot on the 
+                                    <name type="place">River <hi rend="italic">Tame</hi></name> in 
+                                    <hi rend="italic"><name type="place" ref="261">Warwickshire</name>.</hi> 
+                                    I have
+                                    seen four of them, 1. One at <hi rend="italic"><name type="person" ref="131">Venice</name></hi> in
+                                        <hi rend="italic"><name type="place" ref="71">Italy</name>:</hi> 2. One in <hi rend="italic"><name type="person" ref="14">Yorkshire</name></hi> at <name type="person">Dr. <hi rend="italic">Hewleys</hi></name>, shot
+                                    near <hi rend="italic"><name type="place" ref="884">Cawood</name>:</hi> 3. A third in <name type="place" ref="1478">the
+                                    Repository of the <name type="person" ref="11" rend="italic">Royal Society</name></name>: 4. A
+                                    fourth in the house of my honoured friend Mr. <hi rend="italic">
+                                        <name type="person" ref="4134">Richard Darley</name></hi> in 
+                                    <hi rend="italic"><name type="place" ref="52">London</name>,</hi> taken
+                                    in the <name type="place" ref="2624">Isle of 
+                                        <hi rend="italic">Jarsey</hi></name>. They differ
+                                    something one from another in colours. For some of them have a
+                                    ring about their necks, their Back, Neck and Head blacker, and
+                                    painted with little white lines: Others want the ring, and have
+                                    the upper side of their bodies more ash-coloured or grey, varied
+                                    with white specks, and not lines. Perchance these are the Hens,
+                                    those the Cocks. </p>
+                                <p>That which <hi rend="italic"><name type="person" ref="128">Clusius</name></hi> described was bigger
+                                    than a tame <hi rend="italic">Goose,</hi> or at least equal to
+                                    it. For from the Neck, where it joyns to the Breast, to the Rump
+                                    it was two foot long. The compass of the body round was more
+                                    than two foot. The Wings were fourteen inches long: The Tail
+                                    scarce three: The Tongue almost three: The Bill more than four:
+                                    The Neck near eight, and somewhat more in compass: The Head
+                                    short, three inches broad: The Legs somewhat longer than three
+                                    inches: The Feet four inches wide. So far 
+                                    <hi rend="italic"><name type="person" ref="128">Clusius</name>,</hi> 
+                                    Of that which Mr. <name type="person" ref="6" rend="italic">Willughby</name> 
+                                    described at <hi rend="italic"><name type="place" ref="131">Venice</name></hi>
+                                    the measures were as followeth: The weight thirty six ounces:
+                                    The length from Bill to Claws thirty one inches; from Bill to
+                                    Tail twenty eight. The Bill from the tip to the an­gles
+                                    of the mouth was almost three inches long: The Tail two: The
+                                    second bone of the Leg four and a quarter; the third two and an
+                                    half; the outmost fore-toe three inches and an half. The Tongue
+                                    long, sharp, having a transverse bed of asperities not far from
+                                    the bottom, beneath which it is toothed on each side, as this
+                                    figure re­presents. <figure><figDesc>[tiny diagram]</figDesc></figure> 
+                                    In the Palate, on each
+                                    side the fissure, are five rows of prickles or asperities. The
+                                    blind guts were three inches and an half long. Hence it
+                                    manifest­ly appears, that the bird described by 
+                                    <hi rend="italic"><name type="person" ref="128">Clusius</name></hi> was bigger than ours.
+                                    But perchance <hi rend="italic"><name type="person" ref="128">Clusius</name></hi> 
+                                    his was a Cock, ours a Hen. For those I saw at Dr. 
+                                    <hi rend="italic"><name type="person" ref="4135">Hewleys</name></hi> and
+                                    Mr. <hi rend="italic"><name type="person" ref="4134">Darleys</name></hi> 
+                                    were nothing at all less than
+                                    that of <hi rend="italic"><name type="person" ref="128">Clusius</name>,</hi> 
+                                    sent him by <name type="person" rend="italic" ref="4136">Hoierus.</name> But what 
+                                    <hi rend="italic"><name type="person" ref="4136">Hoier</name></hi> 
+                                    writes of them, that they cannot fly at all, is
+                                    a mistake; for though they never breed in 
+                                    <hi rend="italic"><name type="place" ref="22">England</name>,</hi> 
+                                    yet in hard Winters they come over hither. I
+                                    scarce believe they swim so far. Whence it is manifest, that
+                                    they not only flie, but make great flights.</p>
+                                
+                                <p><gap reason="excerpt" resp="editorial"><desc rend="center">. . .</desc></gap></p>
+                            </div>
+
+                            <pb n="343"/>
+
+                            <div type="subsection" n="4">
+                                <head>§. IV. * <hi rend="italic">The small black and white Diver
+                                        with a short, sharp-pointed Bill.</hi>
+                                </head>
+                                <p><choice><orig>THe</orig><reg>The</reg></choice> Picture of this Bird was 
+                                    communicated by that worthy person
+                                    Sir <name type="person" ref="51" rend="italic">Thomas Brown</name>. It hath a short Bill, a
+                                    little bending at the end, [both Mandibles.] The top of the
+                                    Head, the Back, Wings, and in general the whole upper part is
+                                    black, excepting a transverse line of white in the Wings. The
+                                    Chin, Throat, Breast, as far as the middle of the Belly, and
+                                    sides of the Tail white: The Tail short: The Legs of a sordid
+                                    green. The Toes web'd together. The Picture doth not shew any
+                                    hind­toe. This Bird (saith Sir <hi rend="italic"><name type="person" ref="51">Thomas</name>)</hi> is not usual with us; I have met with but two
+                                    of them, brought me by a coaster, who could give it no name.</p>
+                                <p><gap reason="excerpt" resp="editorial"><desc rend="center">. . .</desc></gap></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div type="section" n="7">
+                        <head>SECTION VII.</head>
+                        <p><gap reason="excerpt" resp="editorial"><desc rend="center">. . .</desc></gap></p>
+                        <div type="memb" n="2"><head>MEMB. II. <hi rend="italic">Broad-billed Birds of the
+                                Duck-kind.</hi>
+                        </head><p><gap reason="excerpt" resp="editorial"><desc rend="center">. . .</desc></gap></p>
+
+                        <div type="chapter" n="2">
+                            <head>CHAP. II. <hi rend="italic">Of Sea-Ducks.</hi>
+                            </head>
+                            <p><gap reason="excerpt" resp="editorial"><desc rend="center">. . .</desc></gap></p>
+                            <pb n="366"/>
+
+                            <div type="subsection" n="10">
+                                <head>§. X. <hi rend="italic">The black Diver or Scoter:</hi> Anas
+                                    nigerminor. </head>
+                                <p><choice><orig>IT</orig><reg>It</reg></choice> is almost as big as the common 
+                                    <hi rend="italic">Duck,</hi>
+                                    but rounder-bodied. The whole body all over is of a black or
+                                    sable colour. From the Shoulders in some birds spring blacker
+                                    feathers. In the Chin and middle of the Breast some ash-coloured
+                                    or whitish fea­thers are mingled with the black. The
+                                    Wings are of the same colour with the body, without any
+                                    diversity of colours at all. The Bill such as in the Duck-kind,
+                                    yellow about the Nosthrils, else black; pectinated about the
+                                    sides, yellow within, with­out any bunch in the upper
+                                    Mandible. Its Feet are black. This description is of a Hen.</p>
+                                <p>In the year <date when="1671">1671</date>. I found the Male of this kind at <hi rend="italic"><name type="place" ref="329">Chester</name>,</hi> killed on the Sea-coasts
+                                    thereabouts, and bought in the Market by my Lord Bishop <hi rend="italic"><name type="person" ref="995">Wilkins</name></hi> his <name type="person" key="Steward">Steward</name>, and described it in
+                                    these words.</p>
+                                <p>It is something less than a tame <hi rend="italic">Duck,</hi>
+                                    short-bodied for its bigness, and broad; all over black both
+                                    upper and under-side: Only the Head had a dark tincture of
+                                    pur­ple, and the under-side of the first, second, and
+                                    third rows of Wing-feathers inclined to cinereous. The wings
+                                    were short; the quils in each twenty five. The Tail more than an
+                                    hand-breadth long, consisting of sixteen feathers, the outmost
+                                    of which were the shortest, the rest in order longer to the
+                                    middlemost, which were the longest, so that the Tail runs out
+                                    into an acute angle, more acute than I remember to have
+                                    ob­served in other <hi rend="italic">Sea-ducks;</hi> and
+                                    each single feather is very sharp-pointed.</p>
+                                <p>The Bill in this Bird is especially remarkable, being broad,
+                                    blunt, as in the rest of this kind, of about two inches length,
+                                    having no <hi rend="italic">Appendix</hi> or nail at the tip,
+                                    contra­ry to the manner of other <hi rend="italic">Ducks.</hi> 
+                                    The upper Mandible above the Nostrils, next the
+                                    forehead, bunches out into a notable protuberance, being so
+                                    divided in the middle as to resemble Buttocks, distinguished by
+                                    a yellow intercurrent line. Now the colour of this upper
+                                    Mandible is black about the sides, yellow in the middle, the
+                                    yellow part being so broad as to contain the Nosthrils, and
+                                    about an inch long. The Tongue is very great. The Eye-lids
+                                    yellow. The <hi rend="italic">Irides</hi> of the Eyes dark. The
+                                    Legs and Feet dusky: The Toes very long,and web'd together, so
+                                    that its oars are broad and large. The shorter Toe hath a
+                                    membranous border extant along its outside. This had no
+                                    labyrinth on its Wind-pipe. The blind-guts for a bird of this
+                                    kind were very short: The Gall great. It weighed two pounds and
+                                    nine ounces: Its length from Bill to Tail was twenty two inches:
+                                    It breadth from Wings end to Wings end thirty four and an
+                                    half.</p>
+                                <p>This Bird hath not as yet been described by any Author extant in
+                                    Print that we know of. It abides constantly at Sea, gets
+                                    itsliving by diving, and is taken in Nets placed under water. In
+                                    the wash in <hi rend="italic"><name type="place" ref="390">Lincolnshire</name></hi> it is found
+                                    plentifully. Its Case <pb n="367"/>stuft was sent us first by
+                                    Mr. <hi rend="italic">Fr. <name type="person" ref="4125">Jessop</name></hi> out of <hi rend="italic"><name type="place" ref="14">Yorkshire</name>:</hi> Next we got it at <hi rend="italic"><name type="place" ref="329">Chester</name>,</hi> as we have said: Then <name type="person" ref="51">Sir <hi rend="italic"><name type="person" ref="51">Thomas Brown</name></hi></name> sent us a Picture of it from <hi rend="italic"><name type="place" ref="286">Norwich</name>;</hi> and last­ly, Mr. <hi rend="italic"><name type="person" ref="4128">Johnson</name></hi> sent a description of it in his
+                                    method of Birds, in which description are some particulars not
+                                    observed by us, <hi rend="italic">viz.</hi> that the Male hath
+                                    on the upper side some tincture of shining green, and that in
+                                    the Hen the Neck and Head on both sides, as far as the Eyes, is
+                                    white.</p>
+                            </div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </body>
+
+
+    </text>
+</TEI>
