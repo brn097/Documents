@@ -1,0 +1,1352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="undefined" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="undefined"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+        <title>Thoresby Sale Catalogue</title>
+        <author/>
+        <respStmt>
+        <name>Brent Nelson</name>
+        <resp>editor of beta text for the Culture of Curiosity project</resp>
+        </respStmt>
+        </titleStmt>
+        <publicationStmt>
+        <p>Beta text.
+        </p>
+        </publicationStmt>
+        <notesStmt>
+        <note>Exemplar for the copytext from British Library</note>
+        </notesStmt>
+        <sourceDesc>
+        <bibl><author><name type="person" ref="4112">Bristow, Whiston</name></author>
+        <title type="book">Musæum Thoresbyanum: A Catalogue of the Genuine and Valuable Collection 
+        of That Well Known Antiquarian the Late Ralph Thoresby, Gent. F. R. S. London</title>
+        <pubPlace>London</pubPlace>
+        <date>[1764]</date></bibl>
+        </sourceDesc>
+        
+        </fileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://raw.githubusercontent.com/brn097/Documents/master/ThorSale?person_annotation_20200626104145579",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-06-26T16:41:45.579Z",
+	"dcterms:issued": "2020-06-26T16:46:02.183Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/brn097",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": null,
+		"foaf:nick": "brn097"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/brn097/Documents/master/ThorSale?person_annotation_20200626104145579#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/brn097/Documents/master/ThorSale",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/brn097/Documents/master/ThorSale?person_annotation_20200626104145579#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/div/div[2]/list/item/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	}
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://raw.githubusercontent.com/brn097/Documents/master/ThorSale?person_annotation_20200626104145688",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-06-26T16:41:45.688Z",
+	"dcterms:issued": "2020-06-26T16:46:02.185Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/brn097",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": null,
+		"foaf:nick": "brn097"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/brn097/Documents/master/ThorSale?person_annotation_20200626104145688#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/brn097/Documents/master/ThorSale",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/brn097/Documents/master/ThorSale?person_annotation_20200626104145688#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/div/div[2]/list/item/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	}
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://raw.githubusercontent.com/brn097/Documents/master/ThorSale?person_annotation_20200626104146125",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-06-26T16:41:46.125Z",
+	"dcterms:issued": "2020-06-26T16:46:02.186Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/brn097",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": null,
+		"foaf:nick": "brn097"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/brn097/Documents/master/ThorSale?person_annotation_20200626104146125#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/brn097/Documents/master/ThorSale",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/brn097/Documents/master/ThorSale?person_annotation_20200626104146125#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/div/div[2]/list/item[4]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	}
+}
+]]></rdf:Description></rdf:RDF></xenoData></teiHeader>
+
+<text>
+    
+<front>
+    
+<div type="title_page">
+    <pb n="1"/>    
+    
+    <pb n="01"/>
+        
+    <ab rend="center">MUSÆUM THORESBYANUM.
+        <lb/>A
+        <lb/>Catalogue 
+        <lb/>Of the genuine and valuable 
+        <lb/>COLLECTION 
+        <lb/>Of that well known Antiquarian the late 
+        <lb/>RALPH THORESBY, Gent. <hi rend="italic">F. R. S.</hi> 
+        <lb/>Author of DUCATUS LEODIENSIS. 
+        <lb/>CONSISTING OF</ab> 
+    <ab>
+        <lb/>Roman, British, Runic, Saxon, and English Coin 
+        <lb/>and Medals in Gold, Silver, &amp;c. Manuscripts, 
+        <lb/>Curiosities, Autographs, antient Deeds, original 
+        <lb/>Letters and Signs Manual of British and foreign 
+        <lb/>Kings and Queens, Cromwell the Protector 
+        <lb/>and his Son Richard, Principal Nobility and 
+        <lb/>eminent Persons, for Two Centuries past.
+    </ab>
+    <ab rend="center">
+        <lb/>All which will be 
+        <lb/>SOLD by AUCTION,  
+        <lb/>By <hi rend="italic">WHISTON BRISTOW</hi>, Sworn Broker, 
+        <lb/>At the Exhibition Room, <hi rend="italic">Spring Gardens</hi>, <hi rend="italic">Charing Cross</hi>, 
+        <lb/>On <hi rend="italic">Monday March</hi> 5th, and the Two following Days, begin<lb break="no"/>ing 
+        punctually at 12 o’Clock. 
+        <lb/>To be viewed on <hi rend="italic">Thursday March</hi> 1st, and the following Days, 
+        <lb/><hi rend="italic">Sunday</hi> excepted. 
+    </ab>
+    <ab>
+        <lb/>Catalogues to be had <hi rend="italic">gratis</hi> at the Place of Sale, and of W. 
+        <lb/>B<hi rend="small-caps">ristow</hi> [Publisher of the <hi rend="italic">Public Ledger</hi>] St. <hi rend="italic">St. Paul's 
+        <lb/>Churchyard</hi>, who sells by Commission Estates, Medals, 
+        <lb/>Books, Pictures, Curiosities, Stocks in Trade, and Hous<lb break="no"/>hold Furniture.
+    </ab>
+</div>
+</front>
+  
+<body>
+    <pb n="02"/>
+    
+    <div type="preface">
+     <head>C<hi rend="small-caps">onditions of SALE</hi></head>
+        <p>I. <choice><orig>THE</orig><reg>The</reg></choice> highest Bidder is the Buyer; and if 
+        <lb/>any Dispute shall arise between Two or 
+        <lb/>more Bidders, the Lot in Dispute is to be put up 
+        <lb/>again, or decided by the Majority of the Company. 
+        <lb/>II. No Person to advance less than Sixpence 
+        <lb/>under a Pound; above a Pound, One Shilling; 
+        <lb/>above Five Pounds, Two Shillings and Sixpence; 
+        <lb/>and so in Proportion. 
+        <lb/>III. Each Person to pay down Five Shillings in 
+        <lb/>the Pound, as Earnest, in Part of Payment for 
+        <lb/>each Lot they buy; and to give in his Name and 
+        <lb/>Place of Abode, if required. 
+        <lb/>IV. The Lots to be taken away, with all 
+        <lb/>Faults, at the Buyer's Expence; and the Re<lb break="no"/>mainder of the Purchase-Money to be paid on the 
+        <lb/>Delivery, within Two Days after the Sale; other<lb break="no"/>wise the Money deposited is to be forfeited, and 
+        <lb/>the Lots uncleared to be sold, by public or 
+        <lb/>private Sale, and the Deficiencies (if any) to be 
+        <lb/>made good by the First Purchasers.
+        </p>
+        <p>Those Gentlemen who cannot attend the Sale, 
+        <lb/>may depend on having their Commissions faithfully 
+        <lb/>and punctually executed by 
+        </p>
+        <signed>Their obedient humble Servant,
+        <lb/>W. B<hi rend="small-caps">ristow</hi></signed>
+        </div>
+        
+    <pb n="03"/>
+    
+ <div type="catalogue">
+        
+     <head>A <lb/>CATALOGUE.</head>
+        
+    <div type="day" n="1">    
+     <head>First Day's Sale.</head>
+        
+    <div type="coins" subtype="Roman_Brass">
+     <head>Roman Brass.</head>
+     <list>
+        <item>1 A Large Parcel of <hi rend="italic">Roman</hi> Coins of all Sizes</item>
+        <item>2 A Parcel of Paduans, and Casts of different Em<lb break="no"/>perors.</item>
+        <item>3 One Pupienus, 1 Theodohatus, and 19 more of different <lb/>Emperors <measure quantity="21" rend="right">21</measure></item>
+        <item>4 One Antonius, reverse Britannia, 1 Marius, 1 Allectus, <lb/>and 9 more,
+        small Brass <measure quantity="12" rend="right">12</measure></item>
+        <item>5 Valerianus, Salonina, Claudius, Quintillus, Aurelianus, <lb/>Probus,
+        Tacitus, and Florianus <measure quantity="21" rend="right">21</measure></item>
+        <item>6 Posthumus, Victorinus, Tetricus, Marius, Carausius, Al<lb break="no"/>lectus, Carus, Carinus, and Numerian <measure quantity="23" rend="right">23</measure></item>
+        <item>7 Carausius 7, Allectus 1 <measure quantity="8" rend="right">8</measure></item>
+        <item>8 <hi rend="italic">Roman</hi> Weights 4, of Antioch 2 small, dated 104
+        and 108 <lb/><measure quantity="6" rend="right">6</measure></item>        
+        <item>9 Philip 1, Alexander 1, Demetrius 1, Antiochus Epiph. 1, 
+        <lb/>Alexander Bala 1, and Ptolemy 1 <measure quantity="7" rend="right">7</measure>
+        </item>
+     </list>
+        </div>
+        
+    <div type="coins" subtype="Roman_Brass">
+     <head>Roman large, middle, and small Brass.</head>
+        
+     <list>
+        <item>10 Julius 3, <persName key="Agrippa">Agrippa</persName> 1, Augustus 5, Tiberius 2, Drufus 2, <lb/>Germanicus
+        1, <persName key="Agrippina">Agrippina</persName> 1, Caligula 1, and 2 more, 
+        
+     <fw type="sig" n="A">A</fw> <fw type="catch">N° 84,</fw>   
+        
+
+    <pb n="04"/>
+        N° 84, 85, 86, 87, 93, 94, 95, 96, 97, 100, 101, 102, 
+        <lb/>103, 104, 105, and 106, in the Ducatus, p. 286, 287 <lb/><measure quantity="18" rend="right">18</measure> </item>
+        <item><lb/>11 Caligula 3, Claudius 4, Nero 8. Galba 2, Vitellius 1, Ves<lb break="no"/>pasian 5, <hi rend="italic">vide</hi> Ducatus, N° 108, 109, 110. 113, 114, 
+        <lb/>115<choice><sic>.</sic><corr>,</corr></choice> 121<choice><sic>.</sic><corr>,</corr></choice> 125, 126, 127, 128, 129, 130<choice><sic>.</sic><corr>,</corr></choice> 132<choice><sic>.</sic><corr>,</corr></choice> 135, 
+        <lb/>139, 140<choice><sic>.</sic><corr>,</corr></choice> 153<choice><sic>.</sic><corr>,</corr></choice> 159, 160<choice><sic>.</sic><corr>,</corr></choice> 165, 166, and 167 <measure quantity="23" rend="right">23</measure></item> 
+        <item><lb/>12 Vespasian 2, Domitian 7, Agrippa 1, Nerva 2, Trajan 9, 
+        <lb/><hi rend="italic">vide</hi> Ducatus, N° 176<choice><sic>.</sic><corr>,</corr></choice> 183<choice><sic>.</sic><corr>,</corr></choice> 201<choice><sic>.</sic><corr>,</corr></choice> 209, 210<choice><sic>.</sic><corr>,</corr></choice> 217, 218<choice><sic>.</sic><corr>,</corr></choice> 
+        <lb/>227<choice><sic>.</sic><corr>,</corr></choice> 229<choice><sic>.</sic><corr>,</corr></choice> 231<choice><sic>.</sic><corr>,</corr></choice> 233<choice><sic>.</sic><corr>,</corr></choice> 238, 239<choice><sic>.</sic><corr>,</corr></choice> 274, 275, 276<choice><sic>.</sic><corr>,</corr></choice> 279, 
+        <lb/>283<choice><sic>.</sic><corr>,</corr></choice> 284<choice><sic>.</sic><corr>,</corr></choice> 294 <measure quantity="21" rend="right">21</measure></item> 
+        <item><lb/>13 Hadrian 7, Sabina 1, <persName key="Antoninus">Antoninus</persName> 15, <hi rend="italic">vide</hi> N°
+        305<choice><sic>.</sic><corr>,</corr></choice> 315<choice><sic>.</sic><corr>,</corr></choice> 316<choice><sic>.</sic><corr>,</corr></choice> 
+        <lb/>323, 330, 331, 332<choice><sic>.</sic><corr>,</corr></choice> 341<choice><sic>.</sic><corr>,</corr></choice> 347<choice><sic>.</sic><corr>,</corr></choice> 350, 351, 352<choice><sic>.</sic><corr>,</corr></choice> 360,
+        <lb/>362<choice><sic>.</sic><corr>,</corr></choice> 364<choice><sic>.</sic><corr>,</corr></choice> 369, 370, 371<choice><sic>.</sic><corr>,</corr></choice> 383, 384, 385, 386<choice><sic>.</sic><corr>,</corr></choice> and
+        <lb/>388 <measure quantity="24" rend="right">24</measure></item>
+        <item><lb/>14 Faustina 1, M. Aurelius 3, Faustina jun. 1, Verus 1, Lu<lb break="no"/>
+        cilla 1, Commodus 5, Crispina 1, <hi rend="italic">vide</hi> N° 389<choice><sic>.</sic><corr>,</corr></choice>
+        403<choice><sic>.</sic><corr>,</corr></choice>
+        <lb/> 406<choice><sic>.</sic><corr>,</corr></choice> 413<choice><sic>.</sic><corr>,</corr></choice> 422, 423<choice><sic>.</sic><corr>,</corr></choice> 439<choice><sic>.</sic><corr>,</corr></choice> 442, 444, 445, 446<choice><sic>.</sic><corr>,</corr></choice> 449,
+        <lb/>450, and 457 <measure quantity="14" rend="right">14</measure></item>
+        <item><lb/>15 Did<choice><sic>.</sic><corr>,</corr></choice> Julianus 1, Pesc. Niger 1, Sept. Severus 3, Caracal<lb break="no"/>la
+        1, Jul. Mammea 1, Alex. Severus 3, Gordianus 3,
+        <lb/><hi rend="italic">vide</hi> N° 459<choice><sic>.</sic><corr>,</corr></choice> 460<choice><sic>.</sic><corr>,</corr></choice> 465<choice><sic>.</sic><corr>,</corr></choice> 468<choice><sic>.</sic><corr>,</corr></choice> 495<choice><sic>.</sic><corr>,</corr></choice> 530<choice><sic>.</sic><corr>,</corr></choice> 549<choice><sic>.</sic><corr>,</corr></choice>
+        558<choice><sic>.</sic><corr>,</corr></choice> 570,
+        <lb/>571<choice><sic>.</sic><corr>,</corr></choice> 578, 579, and 581 <measure quantity="13" rend="right">13</measure></item>
+        <item><lb/>16 Philip 2, Traj. Decius (a Medallion) 1, Salust Barbia 1, 
+        <lb/><hi rend="italic">vide</hi> N° 600<choice><sic>.</sic><corr>,</corr></choice> 602, 607 and 610 <measure quantity="4" rend="right">4</measure></item>
+        <item><lb/>17 Treb. Gallus 1, Æmilian 1, see N° 619 and 627 <measure quantity="2" rend="right">2</measure></item>
+        <item><lb/>18 Diocletian, Constantius, Maximianus, Maximinus, Max<lb break="no"/>entius, Severus, Licinius, Magentius, Constantine, and
+        <lb/>Crispus, middle Brass</item>
+        <item><lb/>19 Diocletian, Constantius, Maximianus, Maximinus, Seve<lb break="no"/>rus, Maxentius, Magnentius, Decentius, Licinius, Con<lb break="no"/>stantine, Crispus, Constans, and Mag. Maximus, middle
+        <lb/>Brass</item>
+        <item><lb/>20 Diocletian, Maximianus, Helena, Theodora, M. Fausta,
+        <lb/>Constantius, Crispus, &amp;c. small <measure quantity="40" rend="right">40</measure></item>
+        <item><lb/>21 A <hi rend="italic">Jewish</hi> Shekel, an Half Shekel, and a Selah,
+        see N° 1, 2,
+        <lb/>and 3 <measure quantity="3" rend="right">3</measure></item>
+        <item><lb/>22 A Silver Tetradrachm of Athens, and a Brass Coin of ditto,
+        <lb/><hi rend="italic">vide</hi> N° 4 and 6</item>
+        <item><lb/>23 Another Silver Tetradrachm of Athens with the Name of 
+        <lb/>the Magistrate, and 1 Brass of the same Place, <hi rend="italic">vide</hi> N°
+        <lb/>5 and 7</item>
+        <item><lb/>24 Three Silver Coins of Neapolis, Achaia, and Velia, <hi rend="italic">vide</hi> 
+        <lb/>N° 8, 9, and 10 <measure quantity="3" rend="right">3</measure></item>
+        
+        <lb/><fw type="sig" n="Av"/><fw type="catch">25 A</fw>
+        
+    <pb n="05"/>
+        <item>25 A Brass Coin of Smyrna, 1 of Carthage, 1 of Antioch;
+        <lb/>and 1 more, <hi rend="italic">vide</hi> N° 11, 12, 13, and 14 <measure quantity="4" rend="right">4</measure></item>
+        <item><lb/>26 A Drachm of Amintas, 1 of Alexander, and 1 Tetra<lb break="no"/>drachm of ditto, <hi rend="italic">vide</hi> N° 15,
+        16, and 17 <measure quantity="3" rend="right">3</measure></item>
+        <item><lb/>27 Two Brass Coins of the Ptolemies, 1 of Alexander, and 1
+        <lb/>of Antiochus Epiphan. <hi rend="italic">vide</hi> N° 18, 19, 20,
+        and 22 <measure quantity="4" rend="right">4</measure></item>
+        <item><lb/>28 Three Brass Coins of Anthiochus, 1 of Alex. Bala, 1 of
+        <lb/>Tryohon, and 1 of Cleopatra, <hi rend="italic">vide</hi> N° 23,
+        24, 25, 26, 
+        <lb/>27, also Casts <measure quantity="5" rend="right">5</measure></item>
+        <item><lb/>29 Six Antient Roman Weights, <hi rend="italic">vide</hi> N° 1, 2, 3,
+        4, 5, and 6, 
+        <lb/>p. 279
+        <lb/>*29 Four ditto, 1 Pertinax, large Brass, 1 Ælius, 1 Adrian <measure quantity="7" rend="right">7</measure></item>
+     </list>
+        </div>
+        
+    <div type="coins" subtype="Roman_Silver">
+     <head>Roman Silver Denarii.</head>
+        
+     <list>        
+        <item>30 A double Denarius, and a Quinarius, vide N° 7 and 8</item> 
+        <item><lb/>31 Aburia, Acilia, Æmilia, Antonia, Aurelia, Calpurnia, 
+        <lb/>Carisia, Cassia, Claudia, Coelia, and Cordia, <hi rend="italic">vide</hi> N° 9 
+        <lb/>to 32 <measure quantity="25" rend="right">25</measure></item> 
+        <item><lb/>32 Cornelia, Fannia, Flaminia, Fonteia, Furia, Herennia; 
+        <lb/>Hostilia, Julia, Junia, Livinia, Lucilia, Lucretia, Ma<lb break="no"/>milia, Manlia, Maria, and Minucia, vide N° 33 to 
+        <lb/>38 <measure quantity="26" rend="right">26</measure></item> 
+        <item><lb/>33 Mussidia, Naevia, Norbana, Papiria, Plautia, Plaetoria, 
+        <lb/>Poblicia, Pompeia, Porcia, Posthumia, Rubria, Rutilia, 
+        <lb/>Scribonia, Sentia, Sergia, Sicinia, and Valeria <measure quantity="25" rend="right">25</measure></item>   
+     </list>
+        </div>
+        
+    <div type="coins" subtype="Roman_Imperial">
+     <head>Roman Imperial.</head>
+        
+     <list>
+        <item>34 Julius Cæsar 4, Augustus 5, Tiberius 1, Caligula 1, Clau<lb break="no"/>dius 3, Nero 5, Galba 4, Otho 1, <hi rend="italic">vide</hi>
+        N° 80, 81, 82,
+        <lb/>83<choice><sic>.</sic><corr>,</corr></choice> 88, 89, 90, 91, 92<choice><sic>.</sic><corr>,</corr></choice> 99<choice><sic>.</sic><corr>,</corr></choice> 111<choice><sic>.</sic><corr>,</corr></choice> 118, 119, 120<choice><sic>.</sic><corr>,</corr></choice> 122, 
+        <lb/>123, 124<choice><sic>.</sic><corr>,</corr></choice> 131<choice><sic>.</sic><corr>,</corr></choice> 134<choice><sic>.</sic><corr>,</corr></choice> 136, 137, 138<choice><sic>.</sic><corr>,</corr></choice> 141 and 142 <measure quantity="25" rend="right">25</measure></item>
+        <item><lb/>35 Otho 5, Vitellius 5, Vespasian 14, <hi rend="italic">vide</hi>
+        N° 143, 144, 145,
+        <lb/>146, 147, 148, 149, 150, 151, 152, 154, 155, 156,
+        <lb/>157, 158<choice><sic>.</sic><corr>,</corr></choice> 161, 162, 163, 164<choice><sic>.</sic><corr>,</corr></choice> 168, 169, 170, 171, and
+        <lb/>172 <measure quantity="24" rend="right">24</measure></item>
+        <item><lb/>36 Vespasian 7, Titus 11, Jul. Titi 1, Domitian 6, <hi rend="italic">vide</hi> N° 
+        <lb/>173, 174, 175<choice><sic>.</sic><corr>,</corr></choice> 177, 178, 179, 180, 181 182<choice><sic>.</sic><corr>,</corr></choice> 184, 
+        <lb/>185<choice><sic>.</sic><corr>,</corr></choice> 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 
+        <lb/>197, 198, 199, and 200 <measure quantity="25" rend="right">25</measure> </item>
+        <item><lb/>37 Domitian 21, <hi rend="italic">vide</hi> N° 202 to 208, 211 to 216, 219 to 225,
+        <lb/>and 228 21</item>
+        <item><lb/>38 Domitia 1, Nerva 10, Trajan 14, <hi rend="italic">vide</hi> N°
+        230<choice><sic>.</sic><corr>,</corr></choice> 232<choice><sic>.</sic><corr>,</corr></choice> 234<choice><sic>.</sic><corr>,</corr></choice> 
+        <lb/>236 to 257 <measure quantity="25" rend="right">25</measure></item>
+     <fw type="sig" n="A2">A2</fw> <fw type="catch">39 Trajan</fw>        
+        
+    <pb n="06"/>
+        
+        <item>39 Trajan 27, <hi rend="italic">vide</hi> N° 258, 260 to 273, 278<choice><sic>.</sic><corr>,</corr></choice>
+        281 to 295 
+        <lb/><measure quantity="27" rend="right">27</measure></item>
+        <item><lb/>40 Trajan 4, Hadrian 21, <hi rend="italic">vide</hi> N° 296 to 299,
+        and 301 to
+        <lb/>325 <measure quantity="25" rend="right">25</measure></item>
+        <item><lb/>41 Hadrian 4, Sabina 1, Ælius 2, Antonius Pius 17, <hi rend="italic">vide</hi> 
+        <lb/>N° 326 to 329, and 334 to 361 <measure quantity="24" rend="right">24</measure></item>
+        <item><lb/>42 Antoninus Pius 16, Faustina 8, <hi rend="italic">vide</hi> N°
+        363 to 368, 372
+        <lb/>to 382<choice><sic>.</sic><corr>,</corr></choice> 390<choice><sic>.</sic><corr>,</corr></choice> 392 to 398 <measure quantity="24" rend="right">24</measure></item>
+        <item><lb/>43 Mar. Aurelius 16, Faustina Aurel. 4, Verus 5, Lucilla 1,
+        <lb/><hi rend="italic">vide</hi> N° 402, 404, 405<choice><sic>.</sic><corr>,</corr></choice> 407 to 411, 414 to
+        417, 419
+        <lb/>to 421, 426 to 429, 432 to 436, 441 <measure quantity="27" rend="right">27</measure></item>
+        <item><lb/>44 Commodus 4, Crispina 1, Pertinax 1, Albinus 2, Sept.
+        <lb/>Severus 21, <hi rend="italic">vide</hi> N° 448<choice><sic>.</sic><corr>,</corr></choice> 452, 453<choice><sic>.</sic><corr>,</corr></choice> 455,
+        456<choice><sic>.</sic><corr>,</corr></choice> 458<choice><sic>.</sic><corr>,</corr></choice> 
+        <lb/>461 to 464<choice><sic>.</sic><corr>,</corr></choice> 467<choice><sic>.</sic><corr>,</corr></choice> 469, 470 to 486 <measure quantity="29" rend="right">29</measure></item>
+        <item><lb/>45 Sept. Severus 8, Julia Domna 5, Caracalla 13, <hi rend="italic">vide</hi> N° 487 
+        <lb/>to 494, 496 to 513 <measure quantity="25" rend="right">25</measure></item>
+        <item><lb/>46 Plautilla 1, Geta 6, Macrinus 2, Heliogabalus 13, Julia
+        <lb/>Paula 1, <hi rend="italic">vide</hi> N° 514 to 519, 521 to 529,
+        531 to 536,
+        <lb/>538 to 541 <measure quantity="25" rend="right">25</measure></item>
+        <item><lb/>47 Julia Paula 2, Julia Aquilia 1, Julia Mæfa 2, Julia Mam<lb break="no"/>mea 2, Alex. Severus 15, <hi rend="italic">vide</hi>
+        No. 542 to 548, 550 to
+        <lb/>563<choice><sic>.</sic><corr>,</corr></choice> 565<choice><sic>.</sic><corr>,</corr></choice> 567 <measure quantity="24" rend="right">24</measure></item>
+        <item><lb/>48 Alex. Severus 1, Maximinus 4, Balbinus 1, Gordianus 10,
+        <lb/>Philipps 5, Ottacilla 2, Philip jun. 1, <hi rend="italic">vide</hi>
+        No. 569<choice><sic>.</sic><corr>,</corr></choice>
+        <lb/>572 to 576<choice><sic>.</sic><corr>,</corr></choice> 580, 582 to 584, 586 to 591, 595 to 599,
+        <lb/>and 603 to 605 <measure quantity="24" rend="right">24</measure></item>
+        <item><lb/>49 Traj. Decius 2, Etruscilla 2, Treb. Gallus 6, Volusianus 4, 
+        <lb/>Æmilianus 1, Valerianus 6, Gallienus 9, <hi rend="italic">vide</hi> No. 606,
+        <lb/>611 to 617, 620, 621, 623 to 626, 628 to 642 <measure quantity="30" rend="right">30</measure></item>
+        <item><lb/>50 Constantius 3, Julianus 3, Valentinian 4, Valens 2, Gra<lb break="no"/>tian 2, Mag. Maximus 2, Eugenius 1, Arcadius 2,
+        <lb/>Honorius 1, Theodosius 1 <measure quantity="21" rend="right">21</measure></item>
+        <item><lb/>51 Gallienus 32, <hi rend="italic">vide</hi> No. 644 to 675 (Brass) <measure quantity="32" rend="right">32</measure></item>
+        <item><lb/>52 Gallienus, Salonina, Valerianus, and Posthumus, <hi rend="italic">vide</hi> No.
+        <lb/>677 to 716 <measure quantity="40" rend="right">40</measure></item>
+        <item><lb/>53 Posthumus, Victorinus, and Tetricus, <hi rend="italic">vide</hi>
+        No. 717 to 752 
+        <lb/><measure quantity="40" rend="right">40</measure></item>
+        <item><lb/>54 Tetricus and Claudius, <hi rend="italic">vide</hi> No. 753 to 787
+        <measure quantity="40" rend="right">40</measure></item>
+        <item><lb/>55 Carausius 4, Allectus 2, <hi rend="italic">some finely
+        preserved</hi> <measure quantity="6" rend="right">6</measure></item>
+        <item><lb/>56 One Allectus in Silver, 1 in Brass, and 1 Carausius, <hi rend="italic">fine</hi> 
+        <lb/><hi rend="italic">Preservation</hi> <measure quantity="3" rend="right">3</measure></item>
+        <item><lb/>57 Constantine, Crispus, Constans, Constantius, Licinius, and
+        <lb/>Magnentius <measure quantity="72" rend="right">72</measure></item>
+        <item><lb/>58 Probus, Tacitus, Florianus, Diocletian, Carausius, Allectus,
+        <lb/>Constantinus, and Magnentius <measure quantity="36" rend="right">36</measure></item>
+        
+        
+        <lb/><fw type="sig" n="A2v"/> <fw type="catch">59 Quin-</fw>    
+        
+    <pb n="07"/>
+        <item>59 Quintilius, Carausius, Constantine, Valens, Valentinian, 
+        <lb/>Gratian, Arcadius, and Honorius <measure quantity="43" rend="right">43</measure></item>
+        <item><lb/>60 Carausius 7, Reverse <foreign xml:lang="la" rend="italic">Pax, Moneta, Salus,
+        Hilaritas, Fides</foreign>
+        <lb/><hi rend="italic">Militum, Virtus, and a Legion</hi> <measure quantity="7" rend="right">7</measure></item>
+        <item><lb/>61 Carausius 3, Allectus 2, <hi rend="italic">finely preserved</hi> <measure quantity="5" rend="right">5</measure>        
+        </item>
+     </list>
+        </div>
+        
+    <div type="coins" subtype="Roman_Medals">
+     <head>English Medals in Silver and Copper.</head>
+        
+     <list>
+        <item>62 Three Jettons struck in <hi rend="italic">Holland</hi> alluding to the
+        Assistance
+        <lb/>given to them by Queen <hi rend="italic">Elizabeth</hi>, and an engraved
+        Coun<lb break="no"/>ter of <hi rend="italic">James</hi> I. No. 326,
+        327, 328, and 350 <measure quantity="4" rend="right">4</measure></item>
+        <item><lb/>63 Eight Jettons and Medals of <hi rend="italic">Charles</hi> I.
+        No. 407, 408, 409, 
+        <lb/>410, 411, 412, and 415 <measure quantity="8" rend="right">8</measure></item>
+        <item><lb/>64 An antient Copper Medallion of <hi rend="italic">John Kendal</hi>, grand
+        Tur<lb break="no"/>kolopier at the Siege of <hi rend="italic">Rhodes</hi>,
+        1480, <hi rend="italic">vide</hi> fol. 591, and
+        <lb/>No. 32 in the Plate of Antiquites</item>
+        <item><lb/>65 Three Medals of <hi rend="italic">Charles</hi> I. No. 413, 414, and
+        416 <measure quantity="3" rend="right">3</measure></item>
+        <item><lb/>66 Three Medals of the Earl of <hi rend="italic">Essex</hi>, and 2 of
+        Sir <hi rend="italic">Thomas</hi>
+        <lb/><hi rend="italic">Fairfax</hi>, No. 418, 419, 420, and 421 <measure quantity="5" rend="right">5</measure></item>
+        <item><lb/>67 Two Silver, and 1 Copper Medal of <hi rend="italic">James</hi> I.
+        and 5 of
+        <lb/><hi rend="italic">Charles</hi> I. No. 347, 348, 349<choice><sic>.</sic><corr>,</corr></choice> 422, 423, 424<choice><sic>.</sic><corr>,</corr></choice>
+        496, and 756 <measure quantity="8" rend="right">8</measure></item>
+        <item><lb/>68 Three Chased Medallions of <hi rend="italic">Charles</hi> I. and
+        II.</item>
+        <item><lb/>69 Two Medals of <hi rend="italic">Charles</hi> II. on the Restoration
+        and his <hi rend="italic">Scotch</hi>
+        <lb/>Coronation Medal, No. 452, 453, and 760 <measure quantity="3" rend="right">3</measure></item>
+        <item><lb/>70 A medal of <hi rend="italic">Oliver Cromwell</hi>, and one of <hi rend="italic">Fairfax</hi> <measure quantity="2" rend="right">2</measure></item>
+        <item><lb/>71 A Pattern Piece by <hi rend="italic">Simmons</hi> of <hi rend="italic">Charles</hi> II.</item>
+        <item><lb/>72 The Coronation Medals of <hi rend="italic">James</hi> II. and his
+        Queen. No. 497 and 499 <measure quantity="3" rend="right">3</measure></item>
+        <item><lb/>73 A Medal on the Birth of the Chevalier, <hi rend="italic">Hercules</hi> Strangling
+        <lb/>Serpents in his Cradle, No. 500</item>
+        <item><lb/>74 One Silver and 2 Copper Jettons of the Chevalier, No. 501,
+        <lb/>502, and 503</item>
+        <item><lb/>75 One Medal of <hi rend="italic">William</hi> and <hi rend="italic">Mary</hi>, and 4 of Queen <hi rend="italic">Anne</hi> <measure quantity="5" rend="right">5</measure></item>
+        <item><lb/>76 Two Medals of Queen <hi rend="italic">Anne</hi> and 2 of <hi rend="italic">George</hi> I. <measure quantity="4" rend="right">4</measure></item>
+        <item><lb/>77 Six Medals of Queen <hi rend="italic">Anne</hi> in Copper <measure quantity="6" rend="right">6</measure></item>
+        <item><lb/>78 One Half-penny, and 2 Farthings of Queen <hi rend="italic">Anne</hi> <measure quantity="3" rend="right">3</measure></item>
+        <item><lb/>79 A Jetton of the Earl of <hi rend="italic">Salisbury</hi>, I of the
+        Countess of <hi rend="italic">Pem<lb break="no"/>broke</hi>, 1 of Sir <hi rend="italic">Edmund Godfrey</hi>, 1 of the Earl of <hi rend="italic">Lauder<lb break="no"/>dale</hi>, and 1 of Prince <hi rend="italic">Eugene</hi>, No. 353<choice><sic>.</sic><corr>,</corr></choice> 491<choice><sic>.</sic><corr>,</corr></choice> 495, and 
+        <lb/>757 <measure quantity="5" rend="right">5</measure></item>
+        <item><lb/>80 The Famous and rare Medal of Col <hi rend="italic">Lilburne</hi>,
+        No. 446</item>
+     </list>
+        </div>
+     <fw type="sig" n="A3"/> <fw type="catch">Foreign</fw>        
+        
+    <pb n="08"/>
+        
+    <div type="coins" subtype="Foreign_Coins_Medals">
+     <head>Foreign Silver Coins and Medals.</head>
+        
+     <list>
+        <item>81 Coins of <hi rend="italic">France, Flanders, Germany, Denmark,
+        Sweden,</hi> &amp;c.
+        <lb/>at <hi rend="italic">per</hi> oz.</item>
+        <item><lb/>82 Ditto,</item>
+        <item><lb/>83 Ditto,</item>
+        <item><lb/>84 Ditto, coarse Silver,</item>
+        <item><lb/>85 An <hi rend="italic">Arabian</hi> Larin, 1 antient <hi rend="italic">Arabic</hi>, and 10 more <hi rend="italic">Turkish</hi>
+        <lb/>and <hi rend="italic">East Indian</hi> Pieces in Silver and 19 in
+        Lead and 
+        <lb/>Copper <measure quantity="31" rend="right">31</measure></item>
+        <item><lb/>86 Four very rare and fine Talismans, and a Hebrew Shekel <measure quantity="5" rend="right">5</measure></item>
+        <item><lb/>87 A fine large Marriage Medal, 1 of <hi rend="italic">Luther</hi>, and 9 more of 
+        <lb/><hi rend="italic">Sweden, Denmark, Germany, </hi> and <hi rend="italic">Lorrain</hi> <measure quantity="11" rend="right">11</measure></item>
+        <item><lb/>88 A Medal of <hi rend="italic">Henry</hi> II. 7 <hi rend="italic">French</hi> Jettons in Silver, and a
+        <lb/>fine Copper one gilt of <hi rend="italic">Lewis</hi> XIII. <measure quantity="9" rend="right">9</measure></item>
+        <item><lb/>89 <hi rend="italic">Innocent</hi>, X. <hi rend="italic">Clement</hi> X. <hi rend="italic">Clement</hi> XI. in
+        Silver, <hi rend="italic">Clement</hi> XI. <hi rend="italic">Clement</hi> X. <hi rend="italic">Alexander</hi> VII. <hi rend="italic">Gregory</hi> XIII. and <hi rend="italic">Innocent</hi>
+        <lb/>XII. in Copper, the last gilt <measure quantity="8" rend="right">8</measure></item>
+        <item><lb/>90 A Medal of the Battle of Leipsick, 4 more of <hi rend="italic">Germany</hi>, and
+        <lb/>1 ditto plated <measure quantity="6" rend="right">6</measure></item>
+        <item><lb/>91 Twelve <hi rend="italic">Dutch</hi> and <hi rend="italic">Flemish</hi> Jettons in Silver, and 16 more
+        <lb/>in Copper <measure quantity="28" rend="right">28</measure></item>
+        <item><lb/>92 Four Medals of the <hi rend="italic">United Provinces</hi> on
+        the Synod of <hi rend="italic">Dort</hi>, 
+        <lb/>Peace of <hi rend="italic">Munster</hi>, Battle of <hi rend="italic">Newport</hi>, and Prince <hi rend="italic">Mau<lb break="no"/>rice</hi> <measure quantity="4" rend="right">4</measure></item>
+        <item><lb/>93 Eight <hi rend="italic">Roman</hi> Catholick Pieces with the <hi rend="italic">Virgin Mary</hi>, <hi rend="italic">Ig<lb break="no"/>natius</hi>, <hi rend="italic">Xavier</hi>, &amp;c. in Silver, and 8 in Brass <measure quantity="16" rend="right">16</measure></item>
+     </list>
+        </div>
+        
+    <div type="coins" subtype="English_Roman_Foreign_Gold">
+     <head>English, Roman, and Foreign Gold.</head>
+        
+     <list>
+        <item><lb/>94 A Rose-noble of <hi rend="italic">Edward</hi> IV. and an Angel of ditto,
+        <hi rend="italic">vid.</hi>
+        <lb/>No. 240, and 241</item>
+        <item><lb/>95 A sovereign and Angel of <hi rend="italic">Henry</hi> VIII. No.
+        261, and 
+        <lb/>269 <measure quantity="2" rend="right">2</measure></item>
+        <item><lb/>96 A Half sovereign of <hi rend="italic">Edward</hi> VI. and an Angel of
+        Queen 
+        <lb/><hi rend="italic">Mary</hi>, no. 284, and 293 <measure quantity="2" rend="right">2</measure></item>
+        <item><lb/>97 An Angel of Queen <hi rend="italic">Elizabeth</hi>, a Half
+        Sovereign and
+        <lb/>Double Rose Royal of ditto, 329, 330, and 331 <measure quantity="3" rend="right">3</measure></item>
+        <item><lb/>98 A double Rose Royal of <hi rend="italic">James</hi> I. No. 352</item>
+        <lb/><item>99 One of <hi rend="italic">Charles</hi> V. and 8 more foreign
+        Coins and Medals <measure quantity="9" rend="right">9</measure></item>
+        <lb/><item>100 A Gold Denarius of <hi rend="italic">Tiberius</hi>, No.
+        98</item>
+        <lb/><item>101 Ditto of <hi rend="italic">Trajan</hi>, No. 283</item>
+        <lb/><item>102 Ditto of <hi rend="italic">Joannes Comneus</hi>, <hi rend="italic">vid.</hi> p. 598</item>
+        
+     <fw type="sig" n="A3v"/><fw type="catch">103 A</fw> 
+        
+    <pb n="09"/>
+        
+        <item>103 A Quarter Noble of <hi rend="italic">Edward</hi> III. and a Noble of
+        <hi rend="italic">Hen<lb break="no"/>ry</hi> VI. <measure quantity="2" rend="right">2</measure>
+        
+        </item>
+     </list>
+        </div>
+        
+    <div type="coins" subtype="Brass_Copper_Lead">
+     <head>Silver Roman</head>
+        
+     <list>
+        <item>104 From Augustus to Julianus <measure quantity="52" rend="right">52</measure></item>
+        <item> <lb/>105 Augustus, Tiberius, Vitellius, Vespasian, Titus, Nerva,</item>
+        <item><lb/>Trajan, Hadrian, Ælius, Antonius, Faustina, Ve<lb break="no"/>rus, Caracalla, and Julia Pia <measure quantity="25" rend="right">25</measure></item>
+        <item><lb/>106 Vespasian, Titus, Domitian, Nerva, Trajan, Hadrian,
+        <lb/>Antoninus, Faustina, Aurelius, Verus, Caracalla, Geta, 
+        <lb/>S. Severus, and Julia Domna <measure quantity="26" rend="right">26</measure></item>
+        <item><lb/>107 Julian 2, Jovian 2, Valentinian I, Valens 2, Mag. Maxi<lb break="no"/>mus 2, Victor 1 <measure quantity="10" rend="right">10</measure></item>
+        <item><lb/>108 Constantinus 2, Julian 4, Valens 3, Gratianus 1, Arcadius 
+        <lb/>2, Honorius 2 <measure quantity="14" rend="right">14</measure></item>
+     </list>
+        </div>
+        
+    <div type="coins" subtype="Brass_Copper_Lead">
+     <head>Brass, Copper, Lead, &amp;c.</head>
+        
+     <list>
+        <item>109 Sundry foreign Coins, and Jettons</item>
+        <item><lb/>110 Ditto</item>
+        <item><lb/>111 Sundry foreign Medals, &amp;c. Copper and Pewter</item>
+        <item><lb/>112 Three Matrices of antient seals</item>
+        <item><lb/>113 Ditto</item>
+        <item><lb/>114 Six Medals of <hi rend="italic">Charles Gustavus</hi>, and <hi rend="italic">Charles</hi> XII. Kings of
+        <lb/><hi rend="italic">Sweden</hi>, the Duke of <hi rend="italic">Lorrain</hi>, and
+        Count <hi rend="italic">Teckley</hi>, in hard
+        <lb/>Medal</item>
+        <item> <lb/>115 <hi rend="italic">Lewis</hi> XIV. William III. and Queen Mary, Queen Ann,        
+        <lb/>the Emperors Joseph and Charles VI. &amp;c. <measure quantity="16" rend="right">16</measure></item>        
+        <item><lb/><!--missing no. 116 in original text-->117 Jurieu, Cocceius, Le Tellier, Molinas, <unclear reason="illegible">Witichius</unclear>, and
+        <lb/>the Duke of <hi rend="italic">Mommouth</hi> in ditto</item>
+        <item><lb/>118 Sixtey one <hi rend="italic">Roman</hi> Coins in large and
+        middle Brass in two
+        <lb/>Boards</item>
+        <item><lb/>*118 A Cabinet</item>
+        <item><lb/>119 A Parcel of Boards, with Cells for Coins</item>
+        <item><lb/>*119 Mr. Thoresby's Ducatus Leondiensis, <hi rend="italic">full of
+        Manuscript</hi>
+        <lb/><hi rend="italic">Additions by the Author</hi></item>
+        
+     </list>
+        </div>
+        </div>
+        
+    <div type="day" n="2">
+
+     <head>Second Day's Sale.</head>
+        
+    <div type="coins" subtype="Pewter_Lead_Medals">
+     <head>Pewter and Lead Medals.</head>
+        
+     <list>
+        <item>120 COPPER, Lead, and Pewter Coins and Medals</item>
+        <item><lb/>*120 Copper, Pewter, Lead, and Iron ditto</item>
+        <item><lb/>121 Sundry Silver Coins, at <hi rend="italic">per</hi> oz.</item>
+        <item><lb/>122 Different Halfpence and Farthings, English and Irish 60</item>        
+        
+     <fw type="sig" n="A4"/><fw type="catch">123 Fifty</fw> 
+        
+    <pb n="10"/>
+        
+        <item>123 Fifty Ditto <measure quantity="51" rend="right">51</measure></item>
+        <item><lb/>124 Fifty ditto <measure quantity="50" rend="right">50</measure></item>
+        <item><lb/>125 Town Pieces and Tradesmen Tokens <measure quantity="72" rend="right">72</measure></item>
+        <item><lb/>126 Ditto <measure quantity="72" rend="right">72</measure></item>
+     </list>
+        </div>
+        
+    <div type="coins" subtype="British_Coins">
+     <head>British Coins, &amp;c. D. L. p. 337.</head>
+        
+     <list>
+        <item>127 One Electrum, 2 coarse Silver, <hi rend="italic">vid</hi> D.L. No.
+        1.2.4. <measure quantity="3" rend="right">3</measure>
+        <lb/>128 Two Copper, and 1 coarse Silver, D.L. No. 3.5.6. <measure quantity="3" rend="right">3</measure>
+        <lb/>129 One Gold, 1 Silver, No. 9 and 10 <measure quantity="2" rend="right">2</measure>
+        <lb/>130 Four small Silver, 1 large ditto, No. 11, 12, 13, 14, &amp;c. <measure quantity="5" rend="right">5</measure>
+        <lb/>131 Three Copper, 1 ditto small, <hi rend="italic">Quære</hi> if <hi rend="italic">British</hi>, No. 7. 15,
+        <lb/>16, 17 <measure quantity="4" rend="right">4</measure>
+        </item>
+     </list>
+        </div>
+        
+    <div type="coins" subtype="Saxons">
+     <head>Saxons.</head>
+        
+     <list> <item>132 One supposed to be the Figure of the God <hi rend="italic">Thor</hi>, the other
+        <lb/>probably of <hi rend="italic">Woden</hi> or <hi rend="italic">Othin</hi>, &amp;c. see
+        no. 18 and 19 <measure quantity="2" rend="right">2</measure></item>
+        <item><lb/>133 One of the Peter Pence, and I supposed to be of K. <hi rend="italic">Ed<lb break="no"/>win</hi> of <hi rend="italic">Northumberland</hi>, 617.
+        <hi rend="italic">vid</hi>. p. 340, No. 20. 23 <measure quantity="2" rend="right">2</measure>
+        <lb/>134 One Penny of K. <hi rend="italic">Elfred</hi>, as supposed of <hi rend="italic">Northumberland</hi>,
+        <lb/>but more probably of <hi rend="italic">Alfred</hi> the Great, No. 21
+        <measure quantity="1" rend="right">1</measure></item>
+        <item><lb/><choice><sic>335</sic><corr>135</corr></choice> A St. <hi rend="italic">Peter's</hi> Penny, No. 22. <measure quantity="1" rend="right">1</measure></item>
+        <item><lb/>136 A St. <hi rend="italic">Martin's</hi> ditto, No. 24 <measure quantity="1" rend="right">1</measure></item>
+        <item><lb/>137 Penny <hi rend="italic">(Sancti Eadi)</hi> No. 51 <measure quantity="1" rend="right">1</measure></item>
+        <item><lb/>138 Æthelstan of <hi rend="italic">Kent</hi>, 1 Penny, <hi rend="italic">Burgred</hi> of <hi rend="italic">Mercia</hi>, 3 <measure quantity="4" rend="right">4</measure></item>
+        <item><lb/>139 <hi rend="italic">Burgred</hi> 2, <hi rend="italic">Edmund</hi> 2, and
+        2 <hi rend="italic">Irish</hi> Pennies <measure quantity="6" rend="right">6</measure></item>
+        <item><lb/>140 Ten fine Stica of <hi rend="italic">Eadbert, Etherlet, Alred, Eanred,
+        </hi> and <lb/>
+        <hi rend="italic">Ethelred</hi>, No. 25, 26, 27, 28,29, 30, 31, 32, 33, 34 <measure quantity="10" rend="right">10</measure></item>
+        <item> <lb/>141 Ditto of <hi rend="italic">Ethelred</hi>, &amp;c. No. 35, 36, 37, 38,
+        40, 41, 42, 
+        <lb/>43, 44 10</item>
+        <item><lb/>142 Ditto of <hi rend="italic">Edilred, Ardvvlflyning, Ethelhelm,
+        Ethelread, Os<lb break="no"/>bright,</hi> &amp;c. No. 45, 46, 47, 48, 49,
+        50. 53, 54. 59,
+        <lb/>60. <measure quantity="10" rend="right">10</measure></item>
+        <item><lb/>143 Ditto of <hi rend="italic">Osbright, Alla</hi>, and <hi rend="italic">Eanred,</hi> No. 61, 62, 63, 64, 
+        <lb/>65, 66, 67, 68, 69 <measure quantity="10" rend="right">10</measure>
+        <lb/>144 Ditto of Edilred, and others, <hi rend="italic">uncertain</hi> <measure quantity="13" rend="right">13</measure></item>
+        <item><lb/>145 Fourteen ditto <measure quantity="14" rend="right">14</measure></item>
+        <item><lb/>146 Alfred the Great, 1 Penny, No. 70, Æthelred, 1 ditto,
+        <lb/>No. 58 <measure quantity="2" rend="right">2</measure></item>
+        <item><lb/>147 Athelstan the Dane 1, <hi rend="italic">vid</hi>. 71. Edward, 4 ditto,
+        73, 74,
+        <lb/>75, 76 <measure quantity="5" rend="right">5</measure></item>
+        <item> <lb/>148 Athelstan, No. 77. 78, 79, 80, 83 <measure quantity="5" rend="right">5</measure></item>
+        <item><lb/>149 Athelstan, 3, 81, 82. 85 <measure quantity="3" rend="right">3</measure></item>
+        <item><lb/>150 Athelstan, 2, No. 84 and 87 <measure quantity="2" rend="right">2</measure></item>
+        <item> <lb/>151 Athelstan, 2, 86 and 88, Ethelnoth, 1, 72, <measure quantity="3" rend="right">3</measure></item>        
+        <lb/><fw type="sig" n="A4v"/><fw type="catch">151 Eadred,</fw> 
+        
+    <pb n="11"/>
+        
+        <item><lb/>152 Eadred, 2, 89, 90. Eadgar, 3, 91, 92, 93 <measure quantity="5" rend="right">5</measure></item>
+        <item><lb/>153 Eadweard, <hi rend="italic">reverse, a Church,</hi> No. 95 <measure quantity="1" rend="right">1</measure></item>
+        <item><lb/>154 Eadweard ditto <measure quantity="1" rend="right">1</measure></item>
+        <item><lb/>155 Eadward, 3, 96, 95, 98 <measure quantity="3" rend="right">3</measure></item>
+        <item><lb/>156 Canutus the Danish Kinig, 2, and 1 of Harold <measure quantity="3" rend="right">3</measure></item>
+        <item><lb/>157 Æthelred 3, 99, 100, 101. Canute, 1. Edward ditto,
+        <lb/>105, 106, 107, &amp;c. Burgred, 2 <measure quantity="13" rend="right">13</measure></item>        
+     </list>
+        </div>   
+        
+    <div type="coins" subtype="Norman_Coins">
+     <head>Coins from the Norman Conquest. D. L. p. 349.</head>
+     <list><item>158 Of William I. or II. 6 Pennies, 108, 109, 110, 111, 112,
+        <lb/>113 <measure quantity="6" rend="right">6</measure></item>
+        <item><lb/>159 Ditto 7, and 1 of Rufus, 15, 16, 17, 18, 19. 114. 120 <measure quantity="8" rend="right">8</measure></item>
+        <item><lb/>160 Ditto <measure quantity="5" rend="right">5</measure></item>
+        <item> <lb/>161 Henry I. <hi rend="italic">with Pax, very rare,</hi> I Penny,
+        and 1 of Henry
+        <lb/>II. 128, 129 <measure quantity="2" rend="right">2</measure></item>
+        <item><lb/>162 Stephen and Henry, <hi rend="italic">exceeding scarce,</hi> No.
+        130. <measure quantity="1" rend="right">1</measure></item>
+        <item><lb/>163 Eustachius, No. 131, <hi rend="italic">scarce</hi> <measure quantity="1" rend="right">1</measure></item>
+        <item><lb/>164 Eustacius, <hi rend="italic">Reverse, Eboraci,</hi> No.
+        132, <hi rend="italic">exceeding rare</hi> <measure quantity="1" rend="right">1</measure></item>
+        <item> <lb/>165 Stephen, 1 Penny, <hi rend="italic">scarce</hi> <measure quantity="1" rend="right">1</measure></item>
+        <item><lb/>166 King John, 1 Penny, Henry III. 10. 133, 134, 135, 136,
+        <lb/>137, 138, 139, 140. 141. 143 <measure quantity="11" rend="right">11</measure></item>
+        <item><lb/>167 Richard 1. <hi rend="italic">as supposed by Speed,
+        &amp;c.</hi> No. 142, and 1 Piece
+        <lb/>of the black Money, <hi rend="italic">well preserved</hi> <measure quantity="2" rend="right">2</measure></item>
+        <item><lb/>168 Henry III. 15 Pennies, from No. 144 to 155 <measure quantity="15" rend="right">15</measure> </item>
+        <item><lb/>169 Edward I. and II. Twelve Pence and Halfpence ditto, 
+        <lb/><hi rend="italic">some very rare</hi> <measure quantity="12" rend="right">12</measure></item>
+        <item> <lb/>170 Edward III. 1 Acquitaine Penny, No. 190, Henry VI. 1
+        <lb/>ditto <measure quantity="2" rend="right">2</measure></item>
+        <item><lb/>171 Edward I. II. and III. 44 Pennies <measure quantity="44" rend="right">44</measure></item>
+        <item><lb/>172 Edward III. 4 Groats, 2 Halves, and 2 Halfpence <measure quantity="8" rend="right">8</measure></item>
+        <item><lb/>173 Edward III. 1 Groat, London, 1 York, 1 Half Groat,
+        <lb/>Your, and 1 Half Calais, <hi rend="italic">rare</hi></item>
+        <item> <lb/>174 Richard II. 2 Pennies, 207, 208 <measure quantity="2" rend="right">2</measure></item>
+        <item> <lb/>175 Henry IV. and V. &amp;c. Groats and Half Groats, &amp;c. 209,
+        <lb/>210, 211, 212, 213, 214, 215, &amp;c. <measure quantity="10" rend="right">10</measure></item>
+        <item><lb/>176 Edward IV. 11 Groats, No. 226, 227, 230, 231 <measure quantity="11" rend="right">11</measure></item>
+        <item><lb/>177 Ditto Dublin and Drogheda, <hi rend="italic">one with three
+        crowns,</hi> and a
+        <lb/>scarce Half Groat, <hi rend="italic">with Star or Sun on Reverse,</hi> No.
+        <lb/>234, 235, 236, 237 <measure quantity="4" rend="right">4</measure></item>
+        <item><lb/>178 Richard III. 1 Groat, <hi rend="italic">with the Rose,</hi>
+        No. 242, 1 ditto,
+        <lb/><hi rend="italic">Boar's Head</hi> <measure quantity="2" rend="right">2</measure></item>
+        <item><lb/>179 Henry VII. 5 Groats, 3 Half Groats, 4 Pennies, and a
+        <lb/>Farthing ditto <measure quantity="13" rend="right">13</measure></item>
+        <item><lb/>180 Ditto, and Henry VIII. 9 Groats, 8 Half Groats, 5 Pen<lb break="no"/>
+        
+     <fw type="sig" n="B">B</fw><fw type="catch">nies,</fw>
+        
+    <pb n="12"/>
+        
+        nies, &amp;c. No 243, 244, 245, 246. 248. 250. 260,
+        261 <measure quantity="24" rend="right">24</measure></item></list></div> 
+   <div>
+      <list>
+        <item><lb/>181 Henry VIII. a Proof Piece for the Penny, <hi rend="italic">minted
+        at Dur<lb break="no"/>ham, wt.</hi> 44 <hi rend="italic">Grains</hi>,
+        No. 259  <measure quantity="1" rend="right">1</measure></item>
+        <item><lb/>182 Ditto a Shilling, Groat, and Half Groat, Penny and Half-
+        <lb/>penny, and a Jetton, <hi rend="italic">vid.</hi> No. 263</item>
+        <item><lb/>183 Edward VI. 2 Shillings side faced, one of which is the <hi rend="italic">Ti<lb break="no"/>mor Demini,</hi> with a Half Groat, side
+        faced, <hi rend="italic">rare</hi> <measure quantity="3" rend="right">3</measure></item>
+        <item> <lb/>184 Edward VI. a Crown 1551, and a Half Crown, 6 Shill<lb break="no"/>ings, 2 Sixpences, and one Threepence of fine Silver, 
+        <lb/>No. 281. 283 <measure quantity="10" rend="right">10</measure></item>
+        <item> <lb/>185 Queen Mary, a Shilling, with her Head, <hi rend="italic">Reverse, a Harp
+        <lb/>crowned,</hi> Philip and Mary, 2 Six pences ditto <hi rend="italic">vide</hi> No. 
+        <lb/>290, 291 <measure quantity="3" rend="right">3</measure> </item>
+        <item><lb/>186 Ditto 3 Shillings, and a Crown 1553, and a base Penny 
+        <lb/>Edward VI. with some others, No. 281. 287, 288, 
+        <lb/>&amp;c. <measure quantity="9" rend="right">9</measure> </item>
+        <item><lb/>187 Elizabeth the scarce Portcullis Shilling, and rare Six<lb break="no"/>pence, countermarked with the Belgick Lion, No. 
+        <lb/>294, 306 <measure quantity="2" rend="right">2</measure> </item>
+        <item><lb/>188 Elizabeth, Pledge of a Half-penny, and her Brass Money
+        <lb/>Ireland, 1602, No. 324, 325  </item>
+        <item><lb/>189 Elizabeth, Crown, Half Crown. Shilling, &amp;c. Sixpence, 
+        <lb/>Threepence, Twopence, Penny, and Halfpenny, No. 
+        <lb/>295, 296, 297 <measure quantity="18" rend="right">18</measure></item>
+        <item><lb/>190 Elizabeth's English and Irish Shilling and Sixpence, 2 
+        <lb/>Pennies, Halfpenny, and Copper Farthing, No. 300. 
+        <lb/>314, 322 <measure quantity="8" rend="right">8</measure></item> 
+        <item><lb/>191 King James I Crown, Half Crown, Shilling, and Six<lb break="no"/>pence, Two Pence, Penny, and Halfpenny, No. 332. 
+        <lb/>334, 335, 336, 337, 338. 362. <measure quantity="7" rend="right">7</measure></item> 
+        <item><lb/>* 191 King James's English and Irish Coins, Shillings, Six<lb break="no"/>pences, and 7 smaller Coins, No. 333. 339, 340. 342, 
+        <lb/>343, 344. 346, &amp;c. <measure quantity="10" rend="right">10</measure></item>
+        <item><lb/>** 191 <hi rend="italic">King Charles</hi> I Crown, Half Crown, 5
+        Shillings, a Six<lb break="no"/>pence, and Two-pence, <hi rend="italic">vide</hi> D. L. No. 354. 5. 7. 8.
+        <lb/>9. 37 <measure quantity="8" rend="right">8</measure></item>
+        <item><lb/>192 Ditto, Sundry Coins minted at <hi rend="italic">York,</hi> from the Half Crown 
+        <lb/>to the Penny, <hi rend="italic">vide</hi> D. L. No. 336. 9. 371. 393. 400. 
+        <lb/>1. 4. 5. <measure quantity="11" rend="right">11</measure></item>
+        <item><lb/>193 Ditto, Sundry Coins from the Half Crown to the Two<lb break="no"/>pence, of the Oxford Exurgat Money, <hi rend="italic">vide</hi> D. L. No. 
+        <lb/>363. 390, 1. 7. &amp;c. <measure quantity="11" rend="right">11</measure> </item>
+        <item><lb/>194 Ditto, Newark Siege Coins, &amp;c the Half Crown, Shill
+        <lb/>ing, Nine-pence, Six-pence, Ormond Shilling, Six<lb break="no"/>                
+        
+     <fw type="sig" n="Bv"/><fw type="catch">pence,</fw>        
+        
+    <pb n="13"/>
+        pence, and Groat, and Shilling, 1645, <hi rend="italic">in the Legend
+        <lb/>vide</hi> D. L. No. 365. 374. 381. 2. 7. <measure quantity="9" rend="right">9</measure></item></list></div>
+    <div>
+     <list>
+        <item><lb/>195 Ditto, A <hi rend="italic">rare</hi> Siege Crown and Shilling, N. E. <hi rend="italic">vide</hi> D. L. 
+        <lb/>No. 360. 380 <measure quantity="2" rend="right">2</measure></item> 
+        <item><lb/>196 Ditto, The <unclear reason="illegible">Calisle</unclear> Three Shilling,
+        and Shilling Piece, 
+        <lb/><hi rend="italic">vide</hi> D. L. No. 361. 375. <measure quantity="2" rend="right">2</measure></item>
+        <item><lb/>197 King <hi rend="italic">Charles</hi> I. and II. 4 Pontefract Shillings, <hi rend="italic">vide</hi> D. L. 
+        <lb/>No. 377, 378. 426, 427 <measure quantity="4" rend="right">4</measure></item>
+        <item><lb/>198 King <hi rend="italic">Charles</hi> I. a ditto, and a Cork Six-pence, <hi rend="italic">vide</hi> D. L. 
+        <lb/>No. 366. 384 <measure quantity="2" rend="right">2</measure></item> 
+        <item><lb/>199 Ditto, a Scarborough Siege Coin, 2<hi rend="italic">s.</hi> 3<hi rend="italic">d.</hi> Plate Money, 
+        <lb/>D. L. No. 367 <measure quantity="1" rend="right">1</measure></item> 
+        <item><lb/>200 Ditto, a Siege Coin stamped 1<hi rend="italic">s</hi>. 4<hi rend="italic">d.</hi> a Shilling ditto, Plate 
+        <lb/>Money, <hi rend="italic">vide</hi> D. L. 368. 376 <measure quantity="2" rend="right">2</measure></item> 
+        <item><lb/>201 Lord Baltimore's Shilling (a Proof Six-pence in Copper)
+        <lb/>and 3 New England Shillings, a Six-pence and Three<lb break="no"/>pence, <hi rend="italic">vide</hi> D.L. 441. 3. 4. 5. 6 <measure quantity="7" rend="right">7</measure></item> 
+        <item><lb/>202 Commonwealth, a mill'd Six-pence 1651, in fine <hi rend="italic">Preser<lb break="no"/>vation,</hi> and very <hi rend="italic">rare, vide</hi> D. L. No.
+        435 <measure quantity="1" rend="right">1</measure></item> 
+        <item><lb/>203 Ditto, a Crown, a Half Crown, 2 Shillings, a Six-pence, 
+        <lb/>a Two pence, a Penny, and Half Penny, <hi rend="italic">vide</hi> D. L. 
+        <lb/>No. 430. 1, 2, 3, 4. 7 <measure quantity="8" rend="right">8</measure></item> 
+        <item><lb/>204 The Protector Oliver Cromwell's Crown, Half Crown, 
+        <lb/>and Shilling, <hi rend="italic">vide</hi> 436. 449. 451 <measure quantity="3" rend="right">3</measure></item> 
+        <item><lb/>205 King Charles II. hammered Money, Half Crown, Shilling, 
+        <lb/>Six-pence, Four pence, Three pence, Two pence, and 
+        <lb/>Penny, <hi rend="italic">vide</hi> D. L. 456. 7, 8. 464 <measure quantity="13" rend="right">13</measure></item> 
+        <item><lb/>206 King James II. Crown, Half Crown, Shilling, Six-pence, 
+        <lb/>Four-pence, Three-pence, Two-pence, and Penny <measure quantity="8" rend="right">8</measure></item> 
+        <item><lb/>207 King William and Mary, ditto <measure quantity="8" rend="right">8</measure></item> 
+        <item><lb/>208 King William, ditto <measure quantity="8" rend="right">8</measure></item> 
+        <item><lb/>209 Queen Ann, a Vigo Crown, Half Crown, Shilling, Six<lb break="no"/>pence,
+        Four-pence, Three pence, Two-pence, Penny, 
+        <lb/>and 3 Shillings <measure quantity="11" rend="right">11</measure></item>         
+     </list>
+    </div>
+        
+    <div type="coins" subtype="Scotch_Coins">
+     <head>Scotch Coins.</head>        
+     <list>
+        <item>210 Alexander I. David I. Alexander II. Alexander III. 
+        <lb/>John, Robert I. David II. and James I. Pence and Half 
+        <lb/>Pence, <hi rend="italic">vide</hi> D. L. 647 to 660. 672 to 699
+        <measure quantity="16" rend="right">16</measure></item> 
+        <item><lb/>211 David II. Robert III: sirnamed John Farne Zeir, and 
+        <lb/>James II. Groats, Half Groats, and Pence, <hi rend="italic">vide</hi> D. L. 
+        <lb/>660 to 667. 670 to
+        674 <measure quantity="12" rend="right">12</measure></item>
+        <item><lb/>212 James II. III. and IV. Groats, HalfGroats, &amp;c. <hi rend="italic">vide</hi> D.L. 
+        <lb/>No. 675, 676. 686 to 683. 686, 687, and 684
+        <measure quantity="11" rend="right">11</measure></item> 
+        
+        <lb/><fw type="sig" n="B2"/><fw type="catch">213 Mary,</fw> 
+     </list></div>
+        
+    <pb n="14"/>
+        
+    <div><list><item>213 Mary, and Francis and Mary, from Shilling to Penny,
+        <lb/><hi rend="italic">vide</hi> D.L. 688, 689, to 702 <measure quantity="15" rend="right">15</measure></item>
+        <item><lb/>214 Mary, a Shilling with her Head, and a Medal when Dow<lb break="no"/>ager of
+        <hi rend="italic">France, vide</hi> D.L. 703 to 709 <measure quantity="2" rend="right">2</measure></item>
+        <item><lb/>215 Mary, Mary and Henry, a Crown (or 3 Pound Piece)
+        <lb/>the Half and Quarter ditto, <hi rend="italic">vide</hi> D.L. 705 to 708 <measure quantity="5" rend="right">5</measure></item>
+        <item><lb/>216 James VI. ditto, ditto, <hi rend="italic">vide</hi> D.L. 710 to 716 <measure quantity="7" rend="right">7</measure></item>
+        <item><lb/>217 James VI. and Charles, from the 30s. Piece to the smal<lb break="no"/>lest
+        Coin, <hi rend="italic">vide</hi> D.L. 717 to 726. 733 to 736. 740 to
+        <lb/>751 <measure quantity="27" rend="right">27</measure></item>
+        <item><lb/>218 Sundry English and Scotch Coins from Charles II. to
+        <lb/>Queen Ann inclusive, 40, 20, 10, and 5 Penny Pieces
+        <lb/><measure quantity="23" rend="right">23</measure></item>
+        <item><lb/>219 Various Scotch Half Pence and Farthings, in Copper,
+        <lb/><hi rend="italic">vide</hi> D.L. 727, &amp;c. <measure quantity="27" rend="right">27</measure></item>
+        <item><lb/>220 A Series of the Irish Gun Money of King James II.
+        <lb/>Crowns, Half Crowns, Shillings, and Six-pieces <measure quantity="39" rend="right">39</measure></item>
+        <item><lb/>221 Pewter Pence, Half Pence, and Farthings, <hi rend="italic">well
+        preserved</hi> 
+        <lb/><measure quantity="9" rend="right">9</measure></item>
+        <item><lb/>222 King James II. Pewter Irish Crown, very <hi rend="italic">rare</hi> and well 
+        <lb/><hi rend="italic">preserved</hi> <measure quantity="1" rend="right">1</measure></item>
+        <item><lb/>223 Common Wealth, a Farthing, very <hi rend="italic">rare, vide</hi> D.L. No.
+        <lb/>438 <measure quantity="1" rend="right">1</measure></item>
+        <item><lb/>224 Charles II. 2 scarce Farthings, or Patterns for such, <hi rend="italic">vide</hi>
+        <lb/>D.L. 428, 429 <measure quantity="2" rend="right">2</measure></item>
+        <item><lb/>225 Ditto, I Silver, 2 Copper, Farthings, <hi rend="italic">Quatuor Maria</hi>
+        <lb/><hi rend="italic">vindico,</hi> Exergue, Brittania, <hi rend="italic">vide</hi> D.L. <measure quantity="3" rend="right">3</measure></item>
+        <item><lb/>226 English Pewter Half Pence and Farthings of Charles,
+        <lb/>James, William, and Mary <measure quantity="15" rend="right">15</measure></item>
+        <item><lb/>227 Ditto, Ditto <measure quantity="16" rend="right">16</measure></item>               
+     </list>
+       </div>                
+     </div>
+        
+    <div type="day" n="3">
+        
+     <head>The Third Day's Sale.</head>
+        
+    <div type="Manuscripts">
+     <head>Manuscripts, Curiosities, original Letters, Au<lb break="no"/>tographs, &amp;c.</head>
+        
+     <list>
+        <item>1 TWelve Vol. of Sermons, by <hi rend="italic">Topham, Byard</hi> &amp;c.
+        many
+        <lb/>of them preached before General <hi rend="italic">Fairfax</hi> during
+        <lb/>the Civil Wars and the Interregnum, and some of
+        <lb/>them copied by the General in his own Hand</item>
+        <item><lb/>2 Twelve ditto</item>
+        <item><lb/>3 Twelve ditto with some Theological Tracts and single
+        <lb/>Sermons</item>        
+        
+     </list></div>
+     <fw type="sig" n="B2v"/><fw type="catch">4 A very</fw>         
+        
+    <pb n="15"/>
+    <div><list><item>4 A very antient Exposition of the Creed, and 9 more</item>
+        <item><lb/>5 Lectures of <hi rend="italic">Roger Manhood,</hi> Esq; Chief Baron,
+        Concerning
+        <lb/>Tithes, 1567- Sentence against Sir <hi rend="italic">T. Lake</hi> and
+        Sir
+        <lb/><hi rend="italic">Francis Bacon's</hi> Speech, when he took Place as
+        Lord
+        <lb/>Chancellor, (<hi rend="italic">vide</hi> D.L. N° 119 P. 531,) and
+        5 others</item>
+        <item><lb/>6 Sir <hi rend="italic">J. Nelthorp's</hi> Alphabetical Table of Law,
+        and 5
+        <lb/>more</item>
+        <item><lb/>7 Historica Descriptio Vitæ Gul. Wickami, Winton. Epis<lb break="no"/>copi, et 7 alii</item>
+        <item><lb/>8 Epigrams, Essays, &amp;c. by Mr. <hi rend="italic">Geo.
+        Farrant,</hi> neatly wrote,
+        <lb/>and 5 more</item>
+        <item><lb/>9 The Will of <hi rend="italic">E. Allen</hi>, Esq; with the
+        Ordinances, Rules,
+        <lb/>and Statues, for his College at <hi rend="italic">Dulwich</hi></item>
+        <item><lb/>10 Sapientia Solomonis Drama Comicotragicum- N.B.
+        <lb/>This MS is finely preserved, and was formerly Queen
+        <lb/><hi rend="italic">Elizabeth</hi>'s own Book, and 4 more</item>
+        <item><lb/>11 Certain Tables shewing the Break of Day, the Rising and
+        <lb/>Setting of the Sun, &amp;c. fo ever, 1584, and 11 more</item>
+        <item><lb/>12 <hi rend="italic">Parlor's</hi> Abridgment of Marital Disciplin,
+        selected out of
+        <lb/>best Authors, and the Order of Fortifications and Ap<lb break="no"/>proaches by Sea and Land</item>
+        <item><lb/>13 Miniatura, or the Art of Limning, by <hi rend="italic">D. Ring</hi>,
+        and 5 more</item>
+        <item><lb/>14 Letters of fundry Persons, in the Reigns of Queen <hi rend="italic">Eliza<lb break="no"/>beth</hi> and King <hi rend="italic">James</hi>, and 3 more</item>
+        <item><lb/>15 Lives of <hi rend="italic">Jesus Christ</hi> and of certain Saints,
+        and 7 more</item>
+        <item><lb/>16 Ten Treaties upon Husbandry, Grafting of Trees, &amp;c.
+        <lb/><hi rend="italic">vide</hi> D. L. N° 108, p. 530</item>
+        <item><lb/>17 An Account of <hi rend="italic">Witchraft</hi>, in the Family of E.
+        <hi rend="italic">Fairfax</hi> at 
+        <lb/>Leeds- An account of ditto, in the Family of <hi rend="italic">N.</hi>
+        <lb/>Starkie, Esq; in <hi rend="italic">Lancashire</hi>-Behavior of Mr. <hi rend="italic">John</hi>
+        <lb/><hi rend="italic">Bradford</hi>, Preacher, and of the young Man who <hi rend="italic">suffer<lb break="no"/>ed</hi> with him in <hi rend="italic">Smithfield</hi> for the Testimony of <hi rend="italic">Christ</hi></item>
+        <item><lb/>18 A Treatie of the Sovereignty of <hi rend="italic">Scotland</hi>, in
+        <hi rend="italic">Latin</hi>, wrote
+        <lb/>in a very fair Hand, and 1 more</item>
+        <item><lb/>19 A learned Treatise of Foreft Laws, and 2 more</item>
+        <item><lb/>20 The History of <hi rend="italic">Bombay</hi>, wrote upon <hi rend="italic">Indian</hi> paper, by <hi rend="italic">John</hi>
+        <lb/><hi rend="italic">Burnell,</hi> Esq; Governor of <hi rend="italic">Dungary</hi> Fort in that Island</item>
+        <item><lb/>21 Three Journals of Voyages to the <hi rend="italic">East Indies</hi>,
+        &amp;c. and 4
+        <lb/>more</item>
+        <item><lb/>22 Three Treaties of the Isle of Man, One of them finely
+        <lb/>wrote and beautifully illuminated</item>
+        <item><lb/>23 History of <hi rend="italic">Staffordshire,</hi>by <hi rend="italic">Erdwick</hi></item>
+        <item> <lb/>24 Instructions from Queen <hi rend="italic">Elizabeth</hi> to Sir <hi rend="italic">F. Walsingham,</hi>
+        <lb/>with several Letters in her Reign</item>
+        <item><lb/>25 The trew Coppye of the E. of <hi rend="italic">Arundel,</hi> his
+        Letters sent from
+        <lb/>the Tower to the Queen, 1585- Judge <hi rend="italic">Jenkyn's</hi> An<lb break="no"/>
+        
+     <fw type="sig" n="B3"/><fw type="catch">swer</fw>
+        
+    <pb n="16"/>
+        swer when Prisoner in the Tower, 1647- And King
+        <lb/><hi rend="italic">Charles</hi> I. Farewell to his Lords at <hi rend="italic">Newport</hi>, 1648-
+        <lb/><hi rend="italic">vide</hi> D.L. N° 123, p. 532 and 3 more</item></list></div>
+    <div>
+      <list>
+        <item><lb/>26 The State of <hi rend="italic">England, France, Spain,</hi> and <hi rend="italic">Holland</hi>- And
+        <lb/>Natural and Political Observations upon the State of
+        <lb/><hi rend="italic">England</hi>, with several Calculations of Land, Coin,
+        <lb/>Trade, Wool, &amp;c. <hi rend="italic">vide</hi> D.L. N° 93, p. 527, and 2
+        <lb/>more</item>
+        <item> <lb/>27 Nine Volumes containing the Names of all such Persons
+        <lb/>as have come from beyond the Seas, as also of the
+        <lb/>Places from whence they came, and where they intend
+        <lb/>to lodge, together with their Business, taken Order
+        <lb/>of the Parliamnent, 1655</item>
+        <item><lb/>28 A Volume containing 152 Tracts, chiefly relating to King
+        <lb/><hi rend="italic">James</hi> and King <hi rend="italic">Charles</hi> I.
+        including a waggish Descrip<lb break="no"/>tion of <hi rend="italic">Scotland</hi></item>
+        <item><lb/>29 Queen <hi rend="italic">Elizabeth</hi>'s Instructions to <hi rend="italic">H.</hi> Earl of <hi rend="italic">Pembroke,</hi> ap<lb break="no"/>pointing him President of the Principality of <hi rend="italic">Wales,</hi>
+        <lb/>1598, and 1 more</item>
+        <item> <lb/>30 Parliamentary Tracts during the Reign of <hi rend="italic">Charles</hi> I.
+        and the
+        <lb/>Interregnum, with a brief Note of a Decree of the Star
+        <lb/>Chamber concerning Printing, <hi rend="italic">July</hi> 11th 1637, 5 vol.</item>
+        <item><lb/>31 A Book of Surveying made in the Sixth Year of Queen <hi rend="italic">Eli<lb break="no"/>beth</hi>, containig the State of Manors, Lands, and Tene<lb break="no"/>ments, in the Counties of <hi rend="italic">York</hi>, <hi rend="italic">Durham</hi>, <hi rend="italic">Derby</hi>, &amp;c.
+        <lb/>with several Accounts of the Families of Lord <hi rend="italic">Eure</hi>
+        <lb/>and Sir <hi rend="italic">John Dawnay</hi></item>
+        <item><lb/>32 Commissions of King <hi rend="italic">James</hi> I. and King <hi rend="italic">Charles</hi> II. with
+        <lb/>several other Lifts and Matters, <hi rend="italic">vide</hi> D.L. N° 84. p.
+        <lb/>525, and 4 more</item>
+        <item><lb/>33 History of the Surprize of <hi rend="italic">Pontefract</hi> Castle, <hi rend="italic">vide</hi> D.L.
+        <lb/>N° 78. p. 525, and 9 more</item>
+        <item><lb/>34 An <hi rend="italic">English</hi> Version of <hi rend="italic">Kirkby's</hi>
+        Inquest, with several other 
+        <lb/>Matters interspersed- Names of the Monasteries and
+        <lb/>Hospitals in the Diocess of <hi rend="italic">York</hi>, likewise of what
+        Pre<lb break="no"/>bends, Officers &amp;c. in the Gift of Archbishop of
+        <lb/><hi rend="italic">York</hi>-An Inventory of the Jewels, Plate, &amp;c. within
+        <lb/><hi rend="italic">York</hi> Cathedral, with other Lifts-Visitation of <hi rend="italic">York<lb break="no"/>shire</hi> in Queen <hi rend="italic">Elizabeth</hi>'s Reign, with
+        Additions, by <hi rend="italic">R.</hi>
+        <lb/><hi rend="italic">Thoresby</hi>- Miscellanies chiefly relating to <hi rend="italic">York</hi>- And
+        <lb/>a Rental or Computus of the Archbishop of <hi rend="italic">York</hi></item>
+        <item><lb/>35 Twelve Volumes of curious Tracts of the opulent and
+        <lb/>flourishing Torn of <hi rend="italic">Leeds</hi> in <hi rend="italic">Yorkshire,</hi> relating to its
+        <lb/>Customs, Privileges, and extensive Manufactory in the
+        <lb/>Cloth Trade</item>
+     </list>
+    </div>
+        
+     <fw type="sig" n="B3v"/><fw type="catch">36 Pedi-</fw> 
+        
+    <pb n="17"/>
+        
+    <div>
+     <list>
+        <item>36 Pedigrees of many of the Gentry of <hi rend="italic">Yorkshire</hi>, concludes
+        <lb/>in Queen <hi rend="italic">Elizabeth</hi>'s Reign, with the Arms
+        painted,
+        <lb/><hi rend="italic">vide</hi> D. L. N° 42. p. 521- Pedigrees of the
+        Gentry
+        <lb/>of the West Riding of the County of <hi rend="italic">York, vide</hi>
+        D.L.
+        <lb/>N° 86. p. 526- And an Alphabetical Lift of the
+        <lb/>Names and Arms of the Nobility and Gentry in <hi rend="italic">York<lb break="no"/>shire</hi>, and in the Bishoprick of
+        <hi rend="italic">Durham</hi>, with Additions,
+        <lb/>by <hi rend="italic">Fairfax</hi>, <hi rend="italic">vide</hi> D. L.
+        N° 30. p. 518</item>
+        <item><lb/>37 The Pedigrees and Arms of the Nobility, drawn by <hi rend="italic">Per<lb break="no"/>kins</hi> of <hi rend="italic">Fishlake,</hi> about the Year 1610 or
+        1620, the
+        <lb/>Coats of Arms handsomely express'd</item>
+        <item><lb/>38 A Lift of the Nobility, &amp;c. as likewise of the Offices, Fees,
+        <lb/>&amp;c. in <hi rend="italic">England, vide</hi> D.L. N° 48 p. 521, and 1 more</item>
+        <item><lb/>39 Royal Descent of the Reigns from <hi rend="italic">Egbert</hi> I. to Queen
+        <lb/><hi rend="italic">Elizabeth</hi>, with the Alliances between <hi rend="italic">England</hi> and
+        <lb/><hi rend="italic">France</hi>, with their Arms coloured, <hi rend="italic">vide</hi> D. L. N° 28
+        <lb/>p. 518- Arms of the Nobility from <hi rend="italic">William</hi> the
+        <lb/>Conqueror to <hi rend="italic">Edward</hi> IV. with their Marriage and
+        <lb/>Issue, coloured, <hi rend="italic">vide</hi> D.L. N° 29 p. 518- And an
+        <lb/>Alphabetical List of Crests belonging to several Fami<lb break="no"/>lies,
+        Extracts from Domes-day Book relating to several
+        <lb/>Parts of <hi rend="italic">Yorkshire</hi>- Frodarium Honoris Pontefract</item>
+        <item><lb/>40 The Arms of Queen <hi rend="italic">Elizabeth</hi> and the Knights of the
+        <lb/>Garter in the Year 1599, upon Vellum, finely painted
+        <lb/>and gilt, bound in Velvet, <hi rend="italic">vide</hi> N° 132. p. 532</item>
+        <item><lb/>41 Corpus Christi Playe, in antique <hi rend="italic">English</hi> Verse, <hi rend="italic">vide</hi> D. L. 
+        <lb/>N° 17. p. 517</item>
+        <item><lb/>42 Collection of Letters on Vellum, painted and gilt, <hi rend="italic">vide</hi>
+        <lb/>D. L. N° 12. p. 515- Scali Mundi, and Cata<lb break="no"/>logue of Popes,
+        on Vellum, <hi rend="italic">vide</hi> D.L. N° 13. p. 516</item>
+        <item><lb/>43 A Volume of very antient Music, by <hi rend="italic">R. Fairfax</hi>, Doctor
+        <lb/>of Music and 1 more</item>
+        <item><lb/>44 Cronica fratris Martini Papæ Penitentiani et Capellani
+        <lb/><hi rend="italic">vide</hi> D. L. No. 104 p. 529, and &amp; 5 alii</item>
+        <item><lb/>45 Historia regum Britan. a Bruto ad Oswaldum, <hi rend="italic">vide</hi> D. L.
+        <lb/>No. 191. p. 538, &amp; 3 alii</item>
+        <item><lb/>46 An ancient Breviary, &amp; 4 alii</item>
+        <item><lb/>47 Baltasar Castalionis ad regem Henricum, de Gud. Mone<lb break="no"/>tario
+        Urbini Duce, <hi rend="italic">vide</hi> L.D. No. 194. p. 538, <hi rend="italic">illu<lb break="no"/>minated</hi></item>
+        <item><lb/>48 A Miffal upon Vellum,<hi rend="italic"> finely painted and gilt</hi></item>
+        <item><lb/>49 St. Jerome's Latin Bible, <hi rend="italic">neatly</hi> wrote upon
+        Vellum, <hi rend="italic">vide</hi>
+        <lb/>D.L. No. 3. p. 501</item>
+        <item><lb/>50 A Latin Bible, <hi rend="italic">neatly</hi> wrote on Vellum, <hi rend="italic">vide</hi> D.L. No. 4.
+        <lb/>p. 502</item>        
+       </list>
+     </div>
+        
+     <fw type="sig" n="B4"/><fw type="catch">CURI-</fw> 
+        
+    <pb n="18"/>
+        
+    <div type="Curiosities">
+     <head>Curiosities</head>
+        
+     <list>
+        <item>51 Six Pieces of Ore and Flint, and 3 antient Boxes, 2 of Brass,
+        <lb/>and 1 of Wood, and an old Key</item>
+        <item><lb/>52 A Miniature Picture of King <hi rend="italic">Charles</hi> I. a
+        ditto of <hi rend="italic">Charles</hi> 
+        <lb/>II. 1 ditto of his Queen, and fundry
+        Mochas, &amp;c. </item>
+        <item><lb/>53 A Pair of white Gloves in 2 Walnut Shells, and several
+        <lb/>Dozen of Spoons, Knives, and Forks in a Cherry
+        <lb/>Stone</item>
+        <item><lb/>54 A Handkerchief of King <hi rend="italic">Charles</hi> I. and 2
+        Pieces of Point 
+        <lb/>Lace. </item>
+        <item><lb/>55 A Pair of King <hi rend="italic">James</hi> I. Gloves empbroidered
+        with Gold,
+        <lb/>D. L. 481.</item>
+        <item><lb/>56 Four curious Purses, and 4 Gloves</item>
+        <item><lb/>57 An antient Manuscript Almanack, and 3 old printed ditto</item>
+        <item><lb/>58 Two old <hi rend="italic">Roman</hi> Celts, 3 antient Rings, and
+        fundry odd
+        <lb/>Things</item>
+        <item><lb/>59 A Loadstone, and a Prism</item>
+        <item><lb/>60 Sundry <hi rend="italic">Romish</hi> Relicks, &amp;c.</item>
+        <item><lb/>61 A Pair of Stone Buckles, a Pair of Clasps, a Silver Box, a
+        <lb/> Silver Bodkin, and fundry odd Things</item>
+        <item><lb/>62 Three Box Medals, and a Box Almanack, and an antient
+        <lb/>Coat of Arms in Wood</item>
+        <item><lb/>*62 The House of <hi rend="italic">Parliament</hi> curiously enameled
+        upon
+        <lb/>Gold, <hi rend="italic">Thomas</hi> Lord <hi rend="italic">Fairfax</hi>
+        the General of their
+        <lb/>Forces, upon <hi rend="italic">Chesnut</hi> his Charging-Horse, with
+        distant
+        <lb/>Prospects of Armies, Gladiators, &amp;c. and in a Scroll,
+        <lb/><hi rend="italic">Sic radiant Fideles:</hi> Upon the other Side is the
+        fatal
+        <lb/>Battle at <hi rend="italic">Naseby.</hi> All three are expressed with
+        so much
+        <lb/>Art, that the Metal, though Gold, is but as Dross com<lb break="no"/>pared with the Workmanship; in a Scroll is writ <hi rend="italic">non
+        <lb/>nobis</hi> The Whole comprised in an Inch and Half
+        <lb/>Diameter, yet so exquisitely performed, that the Coun<lb break="no"/>tenances of particular Persons may be discovered. It
+        <lb/>was a Presenmt from the <hi rend="italic">Parliament</hi> to the <hi rend="italic">General</hi>, and
+        <lb/>was purchased by Mr <hi rend="italic">Thoresby's</hi> Father, with his
+        noble
+        <lb/>Collection of Medals. <hi rend="italic">Materiam superabat opus, vide</hi>
+        <lb/>D. L. p. 495</item>
+        <item><lb/>63 A very broad antique Gold Ring, p. 495.</item>
+        <item><lb/>64 A Miniature Picture set in Silver</item>
+        <item><lb/>65 A small <hi rend="italic">Thomas a Kempis</hi>, a neat Pocket-Book
+        on Vellum;
+        <lb/>2 Wooden Almanacks, a Hebrew and another Scroll.</item>
+        <item><lb/>66 A Parcel of Prints, Drawings, &amp;c. and a fundry odd Things</item>   
+       </list>
+     </div>
+     <fw type="sig" n="B4v"/><fw type="catch">Antient</fw> 
+        
+    <pb n="19"/>
+        
+    <div type="Manuscripts">
+        
+     <head>Antient Deeds and original Letters of Kings, 
+        <lb/>Queens, and sundry great Personages, &amp;c.</head>
+        
+     <list>
+        <item>67 Letters, wrote by blind, deaf, and dumb Persons, and those
+        <lb/>without Arms, and several Curiosities in Writing; among
+        <lb/>which is an exceeding fine Piece of Penmanship, being
+        <lb/>the Letter of <hi rend="italic">Publius Lentulus</hi> to the Senate of
+        <hi rend="italic">Rome</hi>,
+        <lb/>giving a Description of our Lord and Saviour <hi rend="italic">Jesus</hi>
+        <lb/><hi rend="italic">Christ</hi></item>
+        <item><lb/>68 Sundry old Deeds</item>
+        <item><lb/>69 Two Deeds in the Reigns of <hi rend="italic">Henry</hi> VIII. and <hi rend="italic">Elizabeth</hi></item>
+        <item><lb/>70 Three Ditto in the Time of the Commonwealth</item> 
+        <item><lb/>71 One ditto of <hi rend="italic">Richard Cromwell</hi>, and Letters Patent under
+        <lb/>his Hand and Great Seal, as Lord Prctector of the 
+        <lb/>commonwealth of <hi rend="italic">England,</hi> for dissolving the
+        Parlia<lb break="no"/>ment, April 20th 1659</item> 
+     </list>
+        </div>
+        
+    <div type="Letters">
+     <head>LETTERS</head>
+        
+     <list>
+        <item>72 An Autograph of <hi rend="italic">Martin Luther</hi>, and a great
+        Number of
+        <lb/>Letters of several eminent Divines</item>
+        <item><lb/>73 Sundry Letters of <hi rend="italic">Hugh Peters, Baxter,</hi> and
+        other diffenting
+        <lb/>Ministers</item>
+        <item><lb/>74 Letters and Autographs of Bishops, and eminent Divines</item>
+        <item><lb/>75 Commissions, Letters, &amp;c. from 1502 to 1650, with Auto<lb break="no"/>graphs of most of the principal Persons concerned in
+        <lb/>the Management of the public Affairs during that Period</item>
+        <item><lb/>76 Another Parcel of ditto</item>
+        <item><lb/>77 Another Parcel of ditto</item>
+        <item><lb/>78 Another Parcel of ditto</item>
+        <item><lb/>79 Another Parcel of ditto; N.B. in this Lot are 20 Letters of 
+        <lb/>of General <hi rend="italic">Monk</hi></item>
+        <item><lb/>80 A Box containing a great Number of Letters by eminent
+        <lb/>Persons, among which are <hi rend="italic">Locke, Boyle, Prior,
+        Steele,</hi>
+        <lb/><hi rend="italic">Flamstead, Halley, Woodward,</hi> Sir <hi rend="italic">H. Sloane,</hi> Sir <hi rend="italic">Chri<lb break="no"/>stopher Wien, Brown Willis, Warburton,</hi> and many 
+        <lb/>others</item>        
+       </list>
+      </div>
+        
+    <div type="Autographs">
+     <head>Autographs, Letters, &amp;c. of Kings, Queens, &amp;c.</head>
+        
+     <list>
+        <item>81 One of Queen <hi rend="italic">Katherine Parr,</hi> 2 of King <hi rend="italic">Edward</hi> VI. 1 of
+        <lb/>of Queen <hi rend="italic">Mary</hi>, and 2 of <hi rend="italic">Mary
+        Queen</hi> of <hi rend="italic">Scots</hi> to the
+        <lb/>Countess of <hi rend="italic">Shrewbury</hi>
+        </item>
+     <fw type="sig" n="C"/><fw type="catch">82 One</fw> 
+        
+    <pb n="20"/>
+        <item><lb/>82 One Letter and 1 Warrant of Queen <hi rend="italic">Elizabeth</hi></item>
+        <item><lb/>83 Two Letters and one Warrant of ditto</item>
+        <item><lb/>84 Two ditto of King <hi rend="italic">James</hi> I. and four
+        Commissions, &amp;c. of
+        <lb/>King <hi rend="italic">Charles</hi> I.</item>
+        <item><lb/>85 Nine Commissions, &amp;c. of the Commonwealth</item>
+        <item><lb/>86 Two Letters from <hi rend="italic">Cromwell</hi> the Protector to
+        Captain <hi rend="italic">F.</hi>
+        <lb/><hi rend="italic">Pickering</hi> near <hi rend="italic">Wakefield
+        Yorkshire</hi>- Instructions to Lord
+        <lb/>Viscount <hi rend="italic">Fauconberge</hi> upon his Repair
+        <choice><sic>ro</sic><corr>to</corr></choice> the <hi rend="italic">French</hi>
+        <lb/>King- A Letter to Lord <hi rend="italic">Wharton, </hi>Concerning the
+        Loss
+        <lb/>of <hi rend="italic">Knottingly</hi>- A Letter from <hi rend="italic">R. Cromwell</hi> to the Uni<lb break="no"/>versity of <hi rend="italic">Oxford</hi></item>
+        <item><lb/>87 A Letter to the Duke of <hi rend="italic">Newcastle</hi>, and 7
+        Signatures of
+        <lb/>King <hi rend="italic">Charles</hi> II.</item>
+        <item> <lb/>88 Eight ditto of ditto</item>
+        <item><lb/>89 Three Letters and Signatures of King <hi rend="italic">James</hi>
+        II.- Four
+        <lb/>ditto of King <hi rend="italic">William</hi>- Two ditto of Queen <hi rend="italic">Anne</hi>
+        <lb/>- Two ditto of King <hi rend="italic">George</hi> I. and a Letter from
+        his
+        <lb/>late Royal Highness <hi rend="italic">Frederick</hi> Prince of <hi rend="italic">Whales</hi> to Queen
+        <lb/><hi rend="italic">Caroline</hi></item>
+        <item> <lb/>90 Several Letters of the King of France, the Prince of
+        <lb/>Orange (Grandfather to King William) Princess So<lb break="no"/>phia,
+        and other foreign Princes</item>        
+       </list>
+      </div>
+     </div>
+    <closer>FINIS</closer>
+
+     <fw type="sig" n="Cv"/>
+
+  </div>
+        
+</body>
+</text>
+</TEI>
